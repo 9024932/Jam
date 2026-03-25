@@ -38,7 +38,6 @@ body {
 
 .BookWorkshop{
 position: relative;
-<<<<<<< HEAD
   right: -80px;
 }
 
@@ -47,7 +46,6 @@ position: relative;
   border-radius: 10px;
   color: white;
   box-shadow: 0 2px 15px rgba(0, 0, 0, 0.1);
-=======
   right: -50px;
 }
 
@@ -61,5 +59,19 @@ position: relative;
 }
 .FooterLinks{
   color: white;
->>>>>>> b2df377988e58d3f666953adf63a1c4d8946e653
+}
+
+.Section1{
+position: relative;
+  right: -80px;
+}
+
+.Section2{
+position: relative;
+  right: -1150px;
+}
+
+.Beschrijving{
+  position: relative;
+  bottom: -80px;
 }
