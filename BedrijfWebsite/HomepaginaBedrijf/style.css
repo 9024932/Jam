@@ -34,11 +34,11 @@ ul li a:hover {
 body {
   margin: 0;
   padding: 0;
+  padding-bottom: 80px; /* ruimte voor footer onderaan */
 }
 
 .BookWorkshop{
 position: relative;
-<<<<<<< HEAD
   right: -80px;
 }
 
@@ -47,31 +47,38 @@ position: relative;
   border-radius: 10px;
   color: white;
   box-shadow: 0 2px 15px rgba(0, 0, 0, 0.1);
-=======
   right: -50px;
 }
 
 .footer{
   background-color:#644C4C;
-  display: flex;
+  position: fixed;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 900;
+  display: grid;
+  grid-template-columns: 1fr auto 1fr;
   align-items: center;
-  padding: 18px 24px;
-  min-height: 64px;
+  padding: 12px 24px;
+  min-height: 56px;
 }
 
 .footer__left{
   color: white;
+  font-size: 1rem;
+  font-weight: 600;
+  justify-self: start;
 }
 
 .footer__nav{
-  margin-left: auto;
   display: flex;
-  gap: 64px;
+  gap: 40px;
+  justify-self: center;
 }
 
 .footer__link{
   color: white;
-<<<<<<< HEAD
   text-decoration: none;
   font-size: 1rem;
   white-space: nowrap;
@@ -81,7 +88,3 @@ position: relative;
 .footer__link:hover{
   text-decoration: underline;
 }
-=======
->>>>>>> b2df377988e58d3f666953adf63a1c4d8946e653
-}
->>>>>>> b832644f04d69e4de3524013437c3e37c09f2440

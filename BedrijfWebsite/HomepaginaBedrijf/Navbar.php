@@ -1,19 +1,10 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <title>Document</title>
-</head>
-<body>
-    <ul>
-  <li><a href="Home.php">Home</a></li>
-  <li><a href="Contact.php">Contact</a></li>
-  <li><a href="OverOns.php">Over ons</a></li>
-  <li><a href="FAQS.php">FAQS</a></li>
-  <li><a href="Reviews.php">Reviews</a></li>
-  <li><a class="BookWorkshop" href="BookWorkshop.php">Book Workshop</a></li>
-</ul>
-</body>
-</html>
+<nav class="navbar" aria-label="Hoofdnavigatie">
+  <ul class="navbar__list">
+    <li class="navbar__item"><a class="navbar__link" href="Home.php">Home</a></li>
+    <li class="navbar__item"><a class="navbar__link" href="Contact.php">Contact</a></li>
+    <li class="navbar__item"><a class="navbar__link" href="OverOns.php">Over ons</a></li>
+    <li class="navbar__item"><a class="navbar__link" href="FAQS.php">FAQS</a></li>
+    <li class="navbar__item"><a class="navbar__link" href="Reviews.php">Reviews</a></li>
+    <li class="navbar__item"><a class="navbar__link BookWorkshop" href="BookWorkshop.php">Book Workshop</a></li>
+  </ul>
+</nav>
