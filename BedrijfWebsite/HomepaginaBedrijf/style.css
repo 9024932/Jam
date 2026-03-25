@@ -3,22 +3,27 @@ ul {
   margin: 0;
   padding: 0;
   overflow: hidden;
-  background-color: #333333;
+  background-color: #F8F3F1;
+  box-shadow: 0 2px 12px rgba(0, 0, 0, 0.1);
 }
 
 ul li a {
   display: block;
-  color: white;
+  color: black;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
+  font-family: "brygada 1918", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
 }
 
 ul li {
   float: left;
   position: relative;
-  right: -890px;
-  margin: 3rem;
+  right: -700px;
+  margin: 0.8rem;
 }
 
 
@@ -33,5 +38,12 @@ body {
 
 .BookWorkshop{
 position: relative;
-  right: -50px;
+  right: -80px;
+}
+
+.BookWorkshop{
+  background-color: #CF944C;
+  border-radius: 10px;
+  color: white;
+  box-shadow: 0 2px 15px rgba(0, 0, 0, 0.1);
 }
