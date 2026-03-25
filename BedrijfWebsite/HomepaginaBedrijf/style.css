@@ -94,3 +94,19 @@ position: relative;
   position: relative;
   bottom: -80px;
 }
+
+.sec{
+  background-color: #644C4C;
+ display: flex;
+align-items: flex-end;
+}
+
+
+    .FooterText{
+color: white;
+    }
+
+.FooterRight{
+color: white;
+
+}
