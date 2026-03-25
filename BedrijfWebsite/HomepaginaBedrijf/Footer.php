@@ -7,7 +7,9 @@
     <title>Document</title>
 </head>
 <body>
-    <p class ="FooterText">© 2023 WorkshopHub</p>
+    <div class="d2">
+    <p class ="FooterText">© 2023 WorkshopHub</p> 
     <p class ="FooterLinks">Cookiebeleid Algemene voorwaarden Privacy beleid</p>
+    </div>
 </body>
 </html>

@@ -35,3 +35,15 @@ body {
 position: relative;
   right: -50px;
 }
+
+.d2{
+  background-color:#644C4C;
+}
+
+.FooterText{
+  color: white;
+  font-size: 1rem;
+}
+.FooterLinks{
+  color: white;
+}
