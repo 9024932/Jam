@@ -36,14 +36,34 @@ position: relative;
   right: -50px;
 }
 
-.d2{
+.footer{
   background-color:#644C4C;
+  display: flex;
+  align-items: center;
+  padding: 18px 24px;
+  min-height: 64px;
 }
 
-.FooterText{
+.footer__left{
   color: white;
   font-size: 1rem;
+  font-weight: 600;
 }
-.FooterLinks{
+
+.footer__nav{
+  margin-left: auto;
+  display: flex;
+  gap: 64px;
+}
+
+.footer__link{
   color: white;
+  text-decoration: none;
+  font-size: 1rem;
+  white-space: nowrap;
+  font-weight: 500;
+}
+
+.footer__link:hover{
+  text-decoration: underline;
 }
