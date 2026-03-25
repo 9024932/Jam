@@ -8,7 +8,7 @@
 </head>
 <body>
     <ul>
-  <li><a href="Home.php">Home</a></li>
+  <li><a href="index.php">Home</a></li>
   <li><a href="Contact.php">Contact</a></li>
   <li><a href="OverOns.php">Over ons</a></li>
   <li><a href="FAQS.php">FAQS</a></li>
