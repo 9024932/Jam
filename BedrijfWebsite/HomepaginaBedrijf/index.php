@@ -10,7 +10,7 @@
 
 <?php include "./Navbar.php" ?>
 
-
+<div></div>
     <h1 class="TitelWebsite">Ontdek Creatieve Workshops</h1>
 
     <p class="Introductie">Volg inspirerende workshops gegeven door professionele kunstenaars in heel Nederland.</p>
