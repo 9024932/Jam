@@ -29,7 +29,11 @@ ul li {
 
 
 ul li a:hover {
-  background-color: #111111;
+  background-color: #ffffff;
+  border: 2px solid #CBCBCB;
+  color: black;
+  transform: scale(1.1);
+  transition: transform 0.3s ease;
 }
 
 body {
@@ -45,6 +49,7 @@ position: relative;
 
 .BookWorkshop{
   background-color: #CF944C;
+  border: 2px solid #9A7344;
   border-radius: 10px;
   color: white;
   box-shadow: 0 2px 15px rgba(0, 0, 0, 0.1);
@@ -68,15 +73,42 @@ position: relative;
 
 .buttonSection{
   display: flex;
-  gap: 20px;
+  gap: 30px;
+  position: absolute;
 }
 
 .OverMijButton{
-
+text-decoration: none;
+border: none;
+padding: 6px 30px;
+border-radius: 5px;
+background-color: #CF944C;
+border: 2px solid #9A7344;
+color: white;
+}
+.OverMijButton:hover{
+  background-color: #ffffff;
+  border: 2px solid #CBCBCB;
+  color: black;
+  transform: scale(1.1);
+  transition: transform 0.3s ease;
 }
 
 .WorkshopsButton{
+text-decoration: none;
+border: none;
+padding: 6px 30px;
+border-radius: 5px;
+background-color: #ffffff;
+border: 2px solid #CBCBCB;
+}
 
+.WorkshopsButton:hover{
+  background-color: #CF944C;
+  border: 2px solid #9A7344;
+  color: white;
+  transform: scale(1.1);
+  transition: transform 0.3s ease;
 }
 
 
@@ -107,9 +139,10 @@ position: relative;
 top: 150px;
 width: 350px;
 padding: 1rem;
-margin: 0 400px;
+margin: 0 380px;
 background-color: #F8F3F1;
 border-radius: 10px;
+text-align: center;
 }
 
 
@@ -118,6 +151,15 @@ border-radius: 10px;
   width: 400px;
   padding: 1rem;
   border-radius: 10%;
+}
+
+.WorkshopImage{
+  position: absolute;
+  bottom: -135px;
+  right: 73.5%;
+  height: 264px;
+  width: 290px;
+  border-radius: 10px;
 }
 
 
@@ -129,4 +171,21 @@ border-radius: 10px;
 p{
   font-family: "brygada 1918", serif;
   font-size: 17px;
+}
+
+.FAQSButton{
+text-decoration: none;
+border: none;
+padding: 6px 30px;
+border-radius: 5px;
+background-color: #ffffff;
+border: 2px solid #CBCBCB;
+}
+
+.FAQSButton:hover{
+  background-color: #CF944C;
+  border: 2px solid #9A7344;
+  color: white;
+  transform: scale(1.1);
+  transition: transform 0.3s ease;
 }

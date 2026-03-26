@@ -20,7 +20,7 @@
                 <button type="button" class="OverMijButton">Over mij</button>
                 <button type="Workshopbutton" class="WorkshopsButton">Neem contact</button>
             </div>
-            <p class="Beschrijving">Bij WorkshopHub brengen we creatieve mensen samen met <br> inspirerende workshops. Leer schilderen, illustreren en ontwerpen van professionele kunstenaars.</p>
+            <p class="Beschrijving">Bij WorkshopHub brengen we creatieve mensen samen met <br> inspirerende workshops. Leer schilderen, illustreren en <br> ontwerpen van professionele kunstenaars.</p>
         </section>
 
         <section class="imageHeader">
@@ -35,6 +35,9 @@
         <p class="Groepsgrootte">Voor bedrijven en groepen 20 - 50 personen</p>
     </section>
 
+
+
+
     <section class="Section3">
         <h2 class="WorkshopTitel">Schilderworkshop</h2>
         <p class="Prijs">Vanaf €10 per persoon</p>
@@ -44,6 +47,11 @@
 
         <button type="button" class="FAQSButton">Vragen?</button>
     </section>
+
+    <section class="ImageWorkshop">
+    <img class ="WorkshopImage" src="./Afbeeldingen/WorkshopImage.png" alt="Workshop Image">
+    </section>
+
 
     <section class="section4">
     <img src="World.png" alt="">
