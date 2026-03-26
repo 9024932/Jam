@@ -15,7 +15,6 @@ ul li a {
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
-  font-family: "brygada 1918", serif;
   font-optical-sizing: auto;
   font-weight: 400;
   font-style: normal;
@@ -65,7 +64,6 @@ position: relative;
   padding: 12px 24px;
   min-height: 56px;
   color: white;
-  font-family: "brygada 1918", serif;
 }
 
 .buttonSection{
@@ -80,16 +78,29 @@ position: relative;
   display: flex;
   justify-content: space-between;
   padding: 0 50px;
+  margin: 0 10px;
 }
 
-/* .Section2{
+.Section2{
+float: right;
 position: relative;
-display : flex;
+height: 210px;
+width: 250px;
+top: -70px;
+padding: 0 50px;
+margin: 0 40px;
+background-color: #644C4C;
+color: white;
+border-radius: 10px;
+text-align: center;
+} 
 
-  right: -1150px;
-  bottom: -35px;
-  font-family: "Kurale";
-} */
+.Section3{
+float: left;
+padding: 0 200px;
+margin: 0 40px;
+}
+
 
 .HeaderImage{
   height: 340px;
@@ -102,4 +113,8 @@ display : flex;
 .Beschrijving{
   position: relative;
   bottom: -80px;
+}
+
+p{
+  font-family: "brygada 1918", serif;
 }
