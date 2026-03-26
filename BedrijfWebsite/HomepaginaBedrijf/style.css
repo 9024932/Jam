@@ -50,18 +50,41 @@ position: relative;
   right: -50px;
 }
 
-
-
+.footer{
+  background-color:#644C4C;
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: -300px;
+  z-index: 900;
+  display: grid;
+  grid-template-columns: 1fr auto;
+  align-items: center;
+  padding: 12px 24px;
+  min-height: 56px;
+  color: white;
+  font-family: "brygada 1918", serif;
+}
 
 
 .Section1{
 position: relative;
   right: -80px;
+  background-color: #F8F3F1;
+  width: 500px;
 }
 
 .Section2{
 position: relative;
   right: -1150px;
+  bottom: -35px;
+  font-family: "Kurale";
+}
+
+.Section3{
+  position: relative;
+  right: -750px;
+  bottom: -80px;
 }
 
 .Beschrijving{

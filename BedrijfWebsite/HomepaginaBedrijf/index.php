@@ -25,6 +25,7 @@
     <p class="Groepsgrootte">Voor bedrijven en groepen 20 - 50 personen</p>
 </section>
 
+<section class ="Section3">
      <h2 class="WorkshopTitel">Schilderworkshop</h2>
      <p class ="Prijs">Vanaf €10 per persoon</p>
      <p class ="Duur">Duur: 2 – 3 uur</p>
@@ -32,7 +33,8 @@
      <p class ="Groepsgrootte">Groepsgrootte: 20 – 50 personen</p>
      
      <button type="button" class="FAQSButton">Vragen?</button>
-     
+</section>
+
      <?php include "./Footer.php" ?>
 
 </body>
