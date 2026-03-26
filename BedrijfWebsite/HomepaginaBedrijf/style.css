@@ -69,9 +69,16 @@ position: relative;
 .buttonSection{
   display: flex;
   gap: 20px;
-  text-decoration: none;
-  border: none;
 }
+
+.OverMijButton{
+
+}
+
+.WorkshopsButton{
+
+}
+
 
 .Section1{
   background-color: #F8F3F1;
@@ -84,7 +91,7 @@ position: relative;
 .Section2{
 float: right;
 position: relative;
-height: 210px;
+height: 230px;
 width: 250px;
 top: -70px;
 padding: 0 50px;
@@ -96,9 +103,13 @@ text-align: center;
 } 
 
 .Section3{
-float: left;
-padding: 0 200px;
-margin: 0 40px;
+position: relative;
+top: 150px;
+width: 350px;
+padding: 1rem;
+margin: 0 400px;
+background-color: #F8F3F1;
+border-radius: 10px;
 }
 
 
@@ -117,4 +128,5 @@ margin: 0 40px;
 
 p{
   font-family: "brygada 1918", serif;
+  font-size: 17px;
 }
