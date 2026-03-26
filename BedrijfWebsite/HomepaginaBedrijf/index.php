@@ -61,11 +61,6 @@
     </section>
 
 
-    <section class="section4">
-    <img src="World.png" alt="">
-    <img src="./Afbeeldingen/paintlog.png" alt="">
-    <img src="./Afbeeldingen/loclog.png" alt="">
-    <img src="./Afbeeldingen/men.png" alt="">
 
     </section>
 
