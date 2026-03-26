@@ -4,7 +4,9 @@ ul {
   padding: 0;
   overflow: hidden;
   background-color: #F8F3F1;
-  box-shadow: 0 2px 12px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 0 2px 3px rgba(0, 0, 0, 0.5);
+  position: relative; /* Verplicht */
+  z-index: 100; 
 }
 
 ul li a {
@@ -66,26 +68,36 @@ position: relative;
   font-family: "brygada 1918", serif;
 }
 
-
-.Section1{
-position: relative;
-  right: -80px;
-  background-color: #F8F3F1;
-  width: 500px;
+.buttonSection{
+  display: flex;
+  gap: 20px;
+  text-decoration: none;
+  border: none;
 }
 
-.Section2{
+.Section1{
+  background-color: #F8F3F1;
+  display: flex;
+  justify-content: space-between;
+  padding: 0 50px;
+}
+
+/* .Section2{
 position: relative;
+display : flex;
+
   right: -1150px;
   bottom: -35px;
   font-family: "Kurale";
+} */
+
+.HeaderImage{
+  height: 340px;
+  width: 400px;
+  padding: 1rem;
+  border-radius: 10%;
 }
 
-.Section3{
-  position: relative;
-  right: -750px;
-  bottom: -80px;
-}
 
 .Beschrijving{
   position: relative;
