@@ -10,7 +10,7 @@
     <ul>
   <li><a href="index.php">Home</a></li>
   <li><a href="Contact.php">Contact</a></li>
-  <li><a href="OverOns.php">Over ons</a></li>
+  <li><a href="OverOns.php">Over mij</a></li>
   <li><a href="FAQS.php">FAQS</a></li>
   <li><a href="Reviews.php">Reviews</a></li>
   <li><a class="BookWorkshop" href="BookWorkshop.php">Book Workshop</a></li>

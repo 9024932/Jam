@@ -34,5 +34,6 @@
      <button type="button" class="FAQSButton">Vragen?</button>
      
      <?php include "./Footer.php" ?>
+
 </body>
 </html>

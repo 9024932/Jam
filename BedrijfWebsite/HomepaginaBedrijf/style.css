@@ -50,35 +50,9 @@ position: relative;
   right: -50px;
 }
 
-.footer{
-  background-color:#644C4C;
-  position: absolute;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  z-index: 900;
-  display: grid;
-  grid-template-columns: 1fr auto;
-  align-items: center;
-  padding: 12px 24px;
-  min-height: 56px;
-}
 
-.footer__left{
-  color: white;
-  justify-self: start;
-}
 
-.footer__nav{
-  display: flex;
-  gap: 40px;
-  justify-self: end;
-  margin-right: 24px;
-}
 
-.footer__link{
-  color: white;
-}
 
 .Section1{
 position: relative;
@@ -94,3 +68,24 @@ position: relative;
   position: relative;
   bottom: -80px;
 }
+
+
+.ivf{
+  background-color: #644C4C;
+}
+
+.d2{
+  width: 97%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 12px 24px;
+  color: white;
+}
+
+.FooterLinks{
+  text-align: right;
+  padding-right: clamp(16px, 6vw, 160px);
+}
+
+
