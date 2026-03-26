@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -7,15 +7,11 @@
     <title>Document</title>
 </head>
 <body>
-<<<<<<< HEAD
+
     <div class="d2 ivf">
     <p class ="FooterText">&copy; <?= date('Y') ?> WorkshopHub</p> 
-    <p class ="FooterLinks">Cookiebeleid &nbsp; Algemene voorwaarden &nbsp; Privacy beleid</p>
-=======
-    <div class="footer">
-    <p class ="FooterText">© 2023 WorkshopHub</p> 
-    <p class ="FooterLinks">Cookiebeleid Algemene voorwaarden Privacy beleid</p>
->>>>>>> main
-    </div>
+    <p class ="FooterLinks">Cookiebeleid &nbsp; &nbsp;&nbsp;&nbsp; Algemene voorwaarden &nbsp;&nbsp;&nbsp;&nbsp; Privacy beleid</p>
+</div>
+
 </body>
 </html>

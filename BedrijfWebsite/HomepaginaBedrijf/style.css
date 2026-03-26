@@ -84,7 +84,7 @@ position: relative;
 .Section3{
   position: relative;
   right: -750px;
-  bottom: -80px;
+  bottom: -10px;
 }
 
 .Beschrijving{
@@ -95,6 +95,7 @@ position: relative;
 
 .ivf{
   background-color: #644C4C;
+  align-items: flex-end;
 }
 
 .d2{
