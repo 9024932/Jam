@@ -29,13 +29,21 @@
     </section>
 
     <section class="Section2">
-        <p class="Locatie">Door heel nederland</p>
+   
+    <p class="Locatie">Door heel nederland</p>
         <p class="Begeleiding">Begeleiding door professionele kunstenaar</p>
         <p class="Locatie">Locatie op eigen bedrijven</p>
         <p class="Groepsgrootte">Voor bedrijven en groepen 20 - 50 personen</p>
     </section>
 
     <section class="Section3">
+        <div class="Section3Icons" aria-hidden="true">
+            <img src="./Afbeeldingen/world.png" alt="">
+            <img src="./Afbeeldingen/paintlog.png" alt="">
+            <img src="./Afbeeldingen/loclog.png" alt="">
+            <img src="./Afbeeldingen/men.png" alt="">
+        </div>
+
         <h2 class="WorkshopTitel">Schilderworkshop</h2>
         <p class="Prijs">Vanaf €10 per persoon</p>
         <p class="Duur">Duur: 2 – 3 uur</p>
@@ -43,14 +51,6 @@
         <p class="Groepsgrootte">Groepsgrootte: 20 – 50 personen</p>
 
         <button type="button" class="FAQSButton">Vragen?</button>
-    </section>
-
-    <section class="section4">
-    <img src="World.png" alt="">
-    <img src="./Afbeeldingen/paintlog.png" alt="">
-    <img src="./Afbeeldingen/loclog.png" alt="">
-    <img src="./Afbeeldingen/men.png" alt="">
-
     </section>
 
     <?php include "./Footer.php" ?>

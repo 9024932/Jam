@@ -106,10 +106,25 @@ text-align: center;
 position: relative;
 top: 150px;
 width: 350px;
-padding: 1rem;
+padding: 1rem 6rem 1rem 1rem;
 margin: 0 400px;
 background-color: #F8F3F1;
 border-radius: 10px;
+}
+
+.Section3Icons{
+  position: absolute;
+  top: -210px;
+  right: -320px;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.Section3Icons img{
+  width: clamp(40px, 4vw, 44px);
+  height: clamp(40px, 4vw, 44px);
+  object-fit: contain;
 }
 
 
@@ -130,3 +145,5 @@ p{
   font-family: "brygada 1918", serif;
   font-size: 17px;
 }
+
+
