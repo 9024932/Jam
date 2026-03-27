@@ -55,7 +55,7 @@
             <p class="Geschikt">Geschikt voor bedrijven en teams</p>
             <p class="Groepsgrootte">Groepsgrootte: 20 – 50 personen</p>
         </section>
-        <a class="FAQSButton" href="FAQS.php">vragen?</a>
+        <a class="FAQSButton" href="FAQS.php">Vragen?</a>
 
     </section>
 

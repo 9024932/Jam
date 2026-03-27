@@ -126,6 +126,7 @@ text-decoration: none;
   border-radius: 5px;
   background-color: #ffffff;
   border: 2px solid #CBCBCB;
+  color: black;
 }
 
 .WorkshopsButton:hover {
@@ -277,6 +278,7 @@ p {
   background-color: #ffffff;
   border: 2px solid #CBCBCB;
   z-index: 10000;
+  color: black;
 }
 
 .FAQSButton:hover {
