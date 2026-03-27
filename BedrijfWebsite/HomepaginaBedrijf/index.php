@@ -29,11 +29,12 @@
     </section>
 
     <section class="Section2">
-   
-    <p class="Locatie">Door heel nederland</p>
+        <section class="Tekst">
+        <p class="Locatie">Door heel nederland</p>
         <p class="Begeleiding">Begeleiding door professionele kunstenaar</p>
         <p class="Locatie">Locatie op eigen bedrijven</p>
         <p class="Groepsgrootte">Voor bedrijven en groepen 20 - 50 personen</p>
+        </section>
     </section>
 
 
@@ -46,18 +47,29 @@
             <img src="./Afbeeldingen/loclog.png" alt="">
             <img src="./Afbeeldingen/men.png" alt="">
         </div>
-
+    <section class="Tekst2">
         <h2 class="WorkshopTitel">Schilderworkshop</h2>
         <p class="Prijs">Vanaf €10 per persoon</p>
         <p class="Duur">Duur: 2 – 3 uur</p>
         <p class="Geschikt">Geschikt voor bedrijven en teams</p>
         <p class="Groepsgrootte">Groepsgrootte: 20 – 50 personen</p>
-
+    </section>
         <button type="button" class="FAQSButton">Vragen?</button>
     </section>
 
+    <section class="Section4">
+        <div class="Section4Icons" aria-hidden="true">
+            <img src="./Afbeeldingen/men.png" alt="">
+            <img src="./Afbeeldingen/paintlog.png" alt="">
+            <img src="./Afbeeldingen/world.png" alt="">
+            <img src="./Afbeeldingen/loclog.png" alt="">
+        </div>
+    </section>
+
+
+
     <section class="ImageWorkshop">
-    <img class ="WorkshopImage" src="./Afbeeldingen/WorkshopImage.png" alt="Workshop Image">
+        <img class="WorkshopImage" src="./Afbeeldingen/WorkshopImage.png" alt="Workshop Image">
     </section>
 
 

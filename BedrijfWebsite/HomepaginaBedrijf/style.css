@@ -5,8 +5,8 @@ ul {
   overflow: hidden;
   background-color: #F8F3F1;
   box-shadow: 0 0 2px 3px rgba(0, 0, 0, 0.5);
-  position: relative; /* Verplicht */
-  z-index: 100; 
+  position: relative;
+  z-index: 100;
 }
 
 ul li a {
@@ -29,6 +29,31 @@ ul li {
 
 
 ul li a:hover {
+  background-color: #CF944C;
+  color: white;
+  border-radius: 10px;
+  transition: background-color 0.3s ease;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  padding-bottom: 80px;
+  /* ruimte voor footer onderaan */
+}
+
+
+.BookWorkshop {
+  background-color: #CF944C;
+  border: 2px solid #9A7344;
+  border-radius: 10px;
+  color: white;
+  box-shadow: 0 2px 15px rgba(0, 0, 0, 0.1);
+  right: -50px;
+  position: relative;
+}
+
+.BookWorkshop:hover {
   background-color: #ffffff;
   border: 2px solid #CBCBCB;
   color: black;
@@ -36,28 +61,8 @@ ul li a:hover {
   transition: transform 0.3s ease;
 }
 
-body {
-  margin: 0;
-  padding: 0;
-  padding-bottom: 80px; /* ruimte voor footer onderaan */
-}
-
-.BookWorkshop{
-position: relative;
-  right: -80px;
-}
-
-.BookWorkshop{
-  background-color: #CF944C;
-  border: 2px solid #9A7344;
-  border-radius: 10px;
-  color: white;
-  box-shadow: 0 2px 15px rgba(0, 0, 0, 0.1);
-  right: -50px;
-}
-
-.footer{
-  background-color:#644C4C;
+.footer {
+  background-color: #644C4C;
   position: absolute;
   left: 0;
   right: 0;
@@ -71,22 +76,23 @@ position: relative;
   color: white;
 }
 
-.buttonSection{
+.buttonSection {
   display: flex;
   gap: 30px;
   position: absolute;
 }
 
-.OverMijButton{
-text-decoration: none;
-border: none;
-padding: 6px 30px;
-border-radius: 5px;
-background-color: #CF944C;
-border: 2px solid #9A7344;
-color: white;
+.OverMijButton {
+  text-decoration: none;
+  border: none;
+  padding: 6px 30px;
+  border-radius: 5px;
+  background-color: #CF944C;
+  border: 2px solid #9A7344;
+  color: white;
 }
-.OverMijButton:hover{
+
+.OverMijButton:hover {
   background-color: #ffffff;
   border: 2px solid #CBCBCB;
   color: black;
@@ -94,16 +100,16 @@ color: white;
   transition: transform 0.3s ease;
 }
 
-.WorkshopsButton{
-text-decoration: none;
-border: none;
-padding: 6px 30px;
-border-radius: 5px;
-background-color: #ffffff;
-border: 2px solid #CBCBCB;
+.WorkshopsButton {
+  text-decoration: none;
+  border: none;
+  padding: 6px 30px;
+  border-radius: 5px;
+  background-color: #ffffff;
+  border: 2px solid #CBCBCB;
 }
 
-.WorkshopsButton:hover{
+.WorkshopsButton:hover {
   background-color: #CF944C;
   border: 2px solid #9A7344;
   color: white;
@@ -112,7 +118,7 @@ border: 2px solid #CBCBCB;
 }
 
 
-.Section1{
+.Section1 {
   background-color: #F8F3F1;
   display: flex;
   justify-content: space-between;
@@ -120,84 +126,141 @@ border: 2px solid #CBCBCB;
   margin: 0 10px;
 }
 
-.Section2{
-float: right;
-position: relative;
-height: 230px;
-width: 250px;
-top: -70px;
-padding: 0 50px;
-margin: 0 40px;
-background-color: #644C4C;
-color: white;
-border-radius: 10px;
-text-align: center;
-} 
-
-.Section3{
-position: relative;
-top: 150px;
-width: 350px;
-padding: 1rem 6rem 1rem 1rem;
-margin: 0 400px;
-background-color: #F8F3F1;
-border-radius: 10px;
-text-align: center;
+.Section2 {
+  float: right;
+  position: relative;
+  height: 290px;
+  width: 250px;
+  top: -70px;
+  padding: 0 50px;
+  margin: 0 40px;
+  background-color: #644C4C;
+  color: white;
+  border-radius: 10px;
 }
 
-.Section3Icons{
-  position: absolute;
-  top: -210px;
-  right: -320px;
+.Tekst {
+  position: relative;
+  top: 15px;
+  right: -20px;
   display: flex;
   flex-direction: column;
-  gap: 12px;
+  gap: 0.01rem;
 }
 
-.Section3Icons img{
-  width: clamp(40px, 4vw, 44px);
-  height: clamp(40px, 4vw, 44px);
+.Section3 {
+  position: relative;
+  top: 110px;
+  width: 360px;
+  height: 285px;
+  padding: 1rem 6rem 1rem 1rem;
+  margin: 0 400px;
+  background-color: #F8F3F1;
+  border-radius: 0px 10px 10px 0px;
+  text-align: center;
+  z-index: 100;
+}
+
+.Section4 {
+  position: relative;
+  top: 150px;
+  width: 360px;
+  padding: 1rem 6rem 1rem 1rem;
+  margin: 0 400px;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.Section4Icons {
+  position: absolute;
+  top: -290px;
+  left: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 22px;
+  z-index: 100; 
+}
+
+.Tekst2 {
+  position: relative;
+  top: -30px;
+  right: -20px;
+  display: flex;
+  flex-direction: column;
+  gap: 0.2rem;
+}
+
+.Section4Icons img {
+  width: clamp(29px, 4vw, 14px);
+  height: clamp(29px, 4vw, 14px);
   object-fit: contain;
 }
 
 
-.HeaderImage{
+.Section3Icons {
+  position: absolute;
+  top: -152px;
+  right: -312px;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.Section3Icons img {
+  width: clamp(30px, 4vw, 34px);
+  height: clamp(30px, 4vw, 34px);
+  object-fit: contain;
+}
+
+.Section4Icons img {
+  width: clamp(18px, 4vw, 34px);
+  height: clamp(18px, 4vw, 34px);
+  object-fit: contain;
+}
+
+
+.HeaderImage {
   height: 340px;
   width: 400px;
   padding: 1rem;
   border-radius: 10%;
 }
 
-.WorkshopImage{
+.WorkshopImage {
   position: absolute;
-  bottom: -135px;
+  bottom: -148px;
   right: 73.5%;
-  height: 264px;
-  width: 290px;
-  border-radius: 10px;
+  height: 315px;
+  width: 330px;
+  border-radius: 10% 0% 0% 10%;
+  z-index: 100;
 }
 
 
-.Beschrijving{
+.Beschrijving {
   position: relative;
   bottom: -80px;
 }
 
-p{
+p {
   font-family: "brygada 1918", serif;
   font-size: 17px;
 }
 
-.FAQSButton{
-text-decoration: none;
-border: none;
-padding: 6px 30px;
-border-radius: 5px;
-background-color: #ffffff;
-border: 2px solid #CBCBCB;
+.FAQSButton {
+  position: absolute;
+  bottom: 7px;
+  left: 165px;
+  text-decoration: none;
+  border: none;
+  padding: 6px 30px;
+  border-radius: 5px;
+  background-color: #ffffff;
+  border: 2px solid #CBCBCB;
+  z-index: 10000;
 }
 
-.FAQSButton:hover{
+.FAQSButton:hover {
   background-color: #CF944C;
   border: 2px solid #9A7344;
   color: white;
