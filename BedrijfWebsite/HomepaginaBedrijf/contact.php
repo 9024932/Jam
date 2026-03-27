@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="contact.css">
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
@@ -13,29 +13,32 @@
 
     <div class="contact-section">
 
-        <div class="card">
-            <div class="icon">✉</div>
+        <section class="card">
+            <img class="MailImage" src="./Afbeeldingen/Mail.png" alt="Contact">
+        <section class="Tekst3">
             <h2>Bel ons:</h2>
-            <p>
-                Telefonische ondersteuning is beschikbaar van 9 tot 5.<br>
-                Bel ons gerust!
+            <p class="PMail">
+                Telefonische ondersteuning is beschikbaar van 9 tot 5. Bel ons gerust!
             </p>
-            <span class="info">012345678</span>
-        </div>
+        </section>
+            <p class="info">012345678</p>
+        </section>
 
-        <div class="card">
-            <div class="icon">📞</div>
+        <section class="card">
+            <img class="ContactImage" src="./Afbeeldingen/Contact.png" alt="Contact">
+        <section class="Tekst4">
             <h2>E-mail ons:</h2>
-            <p>
+            <p class="PContact">
                 Voor algemene vragen kunt u via e-mail contact met ons opnemen
             </p>
-            <span class="info">voorbeeld@gmail.com</span>
-        </div>
+        </section>
+            <p class="info">voorbeeld@gmail.com</p>
+        </section>
 
     </div>
 
     <div class="button-wrapper">
-        <button class="cta">Meer weten</button>
+        <button type="button" class="MeerWetenButton">Meer weten</button>
     </div>
 
 

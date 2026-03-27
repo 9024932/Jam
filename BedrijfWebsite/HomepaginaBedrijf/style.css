@@ -92,6 +92,25 @@ body {
   color: white;
 }
 
+.MeerWetenButton{
+text-decoration: none;
+  border: none;
+  padding: 10px 30px;
+  border-radius: 5px;
+  background-color: #CF944C;
+  border: 2px solid #9A7344;
+  color: white;
+  font-size: 15px;
+}
+
+.MeerWetenButton:hover{
+  background-color: #ffffff;
+  border: 2px solid #CBCBCB;
+  color: black;
+  transform: scale(1.1);
+  transition: transform 0.3s ease;
+}
+
 .OverMijButton:hover {
   background-color: #ffffff;
   border: 2px solid #CBCBCB;
@@ -266,4 +285,61 @@ p {
   color: white;
   transform: scale(1.1);
   transition: transform 0.3s ease;
+}
+
+
+.card {
+  width: 320px;
+  height: 380px;
+  background-color: #e9e3df;
+  border-radius: 6px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  padding: 40px 20px;
+  position: relative;
+}
+
+
+.contact-section {
+  display: flex;
+  justify-content: center;
+  gap: 80px;
+  padding: 80px 20px 40px;
+}
+
+.info {
+  position: absolute;
+  bottom: 25px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.button-wrapper {
+  display: flex;
+  justify-content: center;
+  margin: 40px 0 80px;
+}
+
+.MailImage{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  top: -20px;
+  width: 30%;
+  right: -33.5%;
+}
+
+.ContactImage{
+  display: flex;
+  position: relative;
+  top: 10px;
+  width: 15%;
+  right: -42%;
+}
+
+.Tekst4{
+  position: relative;
+  top: 50px;
+  right: -5px;
 }
