@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <title>Over Mij</title>
+    <title>Document</title>
 </head>
 
 <body>
@@ -17,13 +17,6 @@
             vooral achter schermen zitten.
         </p>
 
-        <p>Wat ik mijn klanten gun?
-            Dat ze naar huis gaan met meer verbinding,
-            meer plezier en een herinnering die verder
-            gaat dan een standaard teamuitje.
-        </p></section>
-
-        
     <?php include "./Footer.php" ?>
 </body>
 
