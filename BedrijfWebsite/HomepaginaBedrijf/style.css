@@ -265,6 +265,7 @@ text-decoration: none;
 p {
   font-family: "brygada 1918", serif;
   font-size: 17px;
+  color: white;
 }
 
 .FAQSButton {
@@ -300,6 +301,18 @@ p {
   padding: 40px 20px;
   position: relative;
 }
+
+.card2 {
+  width: 320px;
+  height: 380px;
+  background-color: #e9e3df;
+  border-radius: 6px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  padding: 40px 20px;
+  position: relative;
+}
+
 
 
 .contact-section {
@@ -345,3 +358,4 @@ p {
   top: 50px;
   right: -5px;
 }
+
