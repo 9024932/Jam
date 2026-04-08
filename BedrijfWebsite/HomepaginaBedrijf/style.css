@@ -365,6 +365,72 @@ p {
 }
 
 .Section5{
-  position: relative;
-  left: 50%;
+  background-color: #F8F3F1;
+  padding: 5rem;
+  border-radius: 30px;
+  width: 400px;
+  box-shadow: 0 0 2px 3px rgba(0, 0, 0, 0.05);
+}
+.Section5 h2,
+.Section5 p,
+.Section6 h2,
+.Section6 p{
+  margin-top: 20px;
+}
+
+.Section6{
+  background-color: #F8F3F1;
+  padding: 5rem;
+  border-radius: 30px;
+  width: 400px;
+  box-shadow: 0 0 2px 3px rgba(0, 0, 0, 0.05);
+}
+
+.SectionBodyFAQS{
+  display: grid;
+  margin-left: 10%;
+  margin-top: 4%;
+  gap: 20px;
+  grid-template-columns: 1fr 1fr;
+  font-size: 80%;
+  
+}
+
+.TitleFAQS{
+  margin-left: 35px;
+  margin-top: 80px;
+  text-align: center;
+}
+
+.faq-item {
+  display: flex;
+  align-items: flex-start;
+  gap: 16px;
+  margin-bottom: 28px;
+}
+
+.faq-item:last-child {
+  margin-bottom: 0;
+}
+
+.faq-number {
+  flex-shrink: 0;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 32px;
+  height: 32px;
+  margin-top: 4px;
+  border-radius: 50%;
+  background-color: #ffffff;
+  font-size: 16px;
+  font-weight: 700;
+}
+
+.faq-content h2 {
+  margin-top: 0;
+}
+
+.faq-content p {
+  margin-bottom: 0;
 }
