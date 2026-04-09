@@ -434,3 +434,173 @@ p {
 .faq-content p {
   margin-bottom: 0;
 }
+
+.h2r{
+text-align: center;
+font-family: Arial, kurale;
+font-size: 3rem;}
+
+.reviewsbody{
+  width: 360px;
+  min-height: 420px;
+  background-color: #F8F3F1;
+  box-shadow: 0 16px 40px rgba(0, 0, 0, 0.12);
+  border-radius: 24px;
+  padding: 28px 32px 32px;
+  margin: 40px 60px 40px auto;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 14px;
+}
+.man1{
+  width: 56px;
+  height: 56px;
+  margin: 0;
+
+}
+
+
+/* ⭐⭐⭐ JOUW BESTAANDE CSS (ongewijzigd) ⭐⭐⭐ */
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #F8F3F1;
+  box-shadow: 0 0 2px 3px rgba(0, 0, 0, 0.5);
+  position: relative;
+  z-index: 100;
+}
+
+ul li a {
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+ul li {
+  float: left;
+  position: relative;
+  right: -700px;
+  margin: 0.8rem;
+}
+
+ul li a:hover {
+  background-color: #CF944C;
+  color: white;
+  border-radius: 10px;
+  transition: background-color 0.3s ease;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  padding-bottom: 80px;
+}
+
+
+.reviewsbody{
+  width: 360px;
+  min-height: 420px;
+  background-color: #F8F3F1;
+  box-shadow: 0 16px 40px rgba(0, 0, 0, 0.12);
+  border-radius: 24px;
+  padding: 28px 32px 32px;
+  margin: 40px 60px 40px auto;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 14px;
+}
+
+.man1{
+  width: 56px;
+  height: 56px;
+  margin: 0;
+}
+
+
+.rating {
+  direction: rtl;
+  display: flex;
+  justify-content: flex-end;
+  gap: 5px;
+  margin-top: 0;
+}
+
+.rating input {
+  display: none;
+}
+
+.rating label {
+  font-size: 30px;
+  cursor: pointer;
+  color: #f3f08a;
+  opacity: 0.35;
+  filter: none;
+  transition: transform 0.2s ease, opacity 0.2s ease;
+}
+
+/* Hover effect */
+.rating label:hover,
+.rating label:hover ~ label {
+  opacity: 1;
+  transform: scale(1.2);
+}
+
+/* Geselecteerde sterren */
+.rating input:checked ~ label {
+  opacity: 1;
+}
+
+.textarea{
+  margin: 6px 0 0;
+  width: 100%;
+  max-width: 280px;
+  height: 110px;
+  display: block;
+  padding: 18px 20px;
+  border: 1px solid #d7d7d7;
+  background: #fff;
+  border-radius: 4px;
+  box-shadow: 0 3px 0 rgba(182, 135, 78, 0.45), 0 10px 18px rgba(0, 0, 0, 0.10);
+  resize: none;
+
+}
+.postbtn {
+  display: block;
+  margin: 22px auto 0;
+  background-color: #B6874E;
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  padding: 10px 28px;
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.18);
+  transition: background-color 0.2s ease, transform 0.15s ease, box-shadow 0.2s ease;
+}
+
+.postbtn:hover {
+  background-color: #a67a46;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.22);
+}
+
+.postbtn:active {
+  transform: translateY(1px);
+}
+
+.rewiesp{
+  width: 183px;
+  height: 88px;
+  object-fit: contain;
+  display: block;
+  margin: 20px auto;
+}
