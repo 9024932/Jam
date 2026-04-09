@@ -1,3 +1,4 @@
+<?php require_once __DIR__ . "/auth.php"; auth_init(); ?>
 <!DOCTYPE html>
 <html lang="en">
 
