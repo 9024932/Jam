@@ -3,7 +3,16 @@
         "id": "03f688c141407ad6e970b8f77223ca62",
         "name": "mustafa",
         "email": "1221musti@gmail.com",
+        "role": "user",
         "password_hash": "$2y$10$vANLX\/aFA0cFZIBcWuvywul2TEOhLR7pnDepkgb6wdkWJ.tL48YDa",
         "created_at": "2026-04-09T11:47:25+00:00"
+    },
+    {
+        "id": "04f52293d10798ed013f34173d400e17",
+        "name": "Jannie",
+        "email": "jannie@gmail.com",
+        "role": "admin",
+        "password_hash": "$2y$10$xNUkA02QSIGFKSwmY4AuJuY01SCvylX4Fbkb9xBjNdjY1Holifn5i",
+        "created_at": "2026-04-09T13:54:23+00:00"
     }
 ]

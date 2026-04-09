@@ -4,11 +4,18 @@ $user = auth_user();
 ?>
 <ul>
   <?php if ($user) { ?>
-    <li class="nav-user-li"><span class="nav-user">Hallo, <?php echo htmlspecialchars($user["name"] ?: "Anoniem", ENT_QUOTES, "UTF-8"); ?></span></li>
-    <li class="uitlog"><a href="Login.php">Uitloggen</a></li>
+    <li class="nav-user-li">
+        <span class="nav-user">Hallo, <?php echo htmlspecialchars($user["name"] ?: "Anoniem", ENT_QUOTES, "UTF-8"); ?></span>
+    </li>
+    <li class="uitlog">
+        <a href="logout.php">Uitloggen</a>
+    </li>
   <?php } else { ?>
-    <li class="nav-user-li"><a href="Login.php">Inloggen</a></li>
+    <li class="nav-user-li">
+        <a href="Login.php">Inloggen</a>
+    </li>
   <?php } ?>
+  
   <li class="nav-spacer" aria-hidden="true"></li>
 
   <li><a href="index.php">Home</a></li>

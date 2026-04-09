@@ -29,16 +29,18 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
             $error = "Dit e-mailadres is al geregistreerd.";
         } else {
             $id = bin2hex(random_bytes(16));
-            $users[] = [
+            $newUser = [
                 "id" => $id,
                 "name" => $name,
                 "email" => $email,
+                "role" => "user",
                 "password_hash" => password_hash($password, PASSWORD_DEFAULT),
                 "created_at" => date("c"),
             ];
+            $users[] = $newUser;
             auth_write_users($users);
 
-            auth_login(["id" => $id, "name" => $name, "email" => $email]);
+            auth_login($newUser);
             auth_redirect("index.php?registered=1");
         }
     }

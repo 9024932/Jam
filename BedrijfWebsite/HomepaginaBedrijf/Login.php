@@ -38,7 +38,6 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
     <title>Inloggen</title>
 </head>
 <body>
-    <?php include "./Navbar.php" ?>
 
     <div class="auth-wrap">
         <h2 class="auth-title">Inloggen</h2>
@@ -63,6 +62,5 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
         </form>
     </div>
 
-    <?php include "./Footer.php" ?>
 </body>
 </html>

@@ -1,4 +1,7 @@
 <?php
+// ================================
+// Auth systeem: login, logout, sessie
+// ================================
 
 function auth_init(): void
 {
@@ -18,7 +21,6 @@ function auth_read_users(): array
     if (!is_file($file)) {
         return [];
     }
-
     $decoded = json_decode((string) file_get_contents($file), true);
     return is_array($decoded) ? $decoded : [];
 }
@@ -42,34 +44,40 @@ function auth_user(): ?array
 function auth_login(array $user): void
 {
     auth_init();
+    // Creëer een nieuwe sessie-ID om session fixation te voorkomen
+    session_regenerate_id(true);
+
     $_SESSION["user"] = [
         "id" => $user["id"] ?? null,
         "name" => $user["name"] ?? "",
         "email" => $user["email"] ?? "",
+        "role" => $user["role"] ?? "user",
     ];
 }
 
 function auth_logout(): void
 {
     auth_init();
-    session_unset();
-    $_SESSION = [];
 
+    // Verwijder alle sessievariabelen
+    $_SESSION = [];
+    session_unset();
+
+    // Verwijder de session cookie
     if (ini_get("session.use_cookies")) {
         $params = session_get_cookie_params();
-        // Probeer op meerdere paden te verwijderen (handig bij subfolder-projects zoals /Jam/...).
-        setcookie(session_name(), "", time() - 42000, "/");
         setcookie(
             session_name(),
-            "",
+            '',
             time() - 42000,
-            $params["path"] ?? "/",
-            $params["domain"] ?? "",
-            (bool) ($params["secure"] ?? false),
-            (bool) ($params["httponly"] ?? true)
+            $params["path"] ?? '/',
+            $params["domain"] ?? '',
+            $params["secure"] ?? false,
+            $params["httponly"] ?? true
         );
     }
 
+    // Vernietig de sessie
     session_destroy();
 }
 
@@ -95,3 +103,40 @@ function auth_redirect(string $path): void
     header("Location: " . $path);
     exit;
 }
+
+// Optioneel: helper voor beveiligde pagina's
+function auth_require_login(): void
+{
+    if (!auth_user()) {
+        auth_redirect("Login.php");
+    }
+}
+
+function auth_is_admin(?array $user = null): bool
+{
+    $u = $user ?? auth_user();
+    if (!$u) {
+        return false;
+    }
+    return (string) ($u["role"] ?? "") === "admin";
+}
+
+function auth_csrf_token(): string
+{
+    auth_init();
+    if (!isset($_SESSION["_csrf"]) || !is_string($_SESSION["_csrf"]) || $_SESSION["_csrf"] === "") {
+        $_SESSION["_csrf"] = bin2hex(random_bytes(32));
+    }
+    return $_SESSION["_csrf"];
+}
+
+function auth_csrf_validate(?string $token): bool
+{
+    auth_init();
+    $sessionToken = $_SESSION["_csrf"] ?? "";
+    if (!is_string($sessionToken) || $sessionToken === "" || !is_string($token) || $token === "") {
+        return false;
+    }
+    return hash_equals($sessionToken, $token);
+}
+?>
