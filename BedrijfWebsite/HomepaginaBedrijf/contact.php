@@ -39,7 +39,7 @@
     </div>
 
     <div class="button-wrapper">
-        <button type="button" class="MeerWetenButton">Meer weten</button>
+        <a class="MeerWetenButton" type="button" href="FAQS.php">Meer weten</a>
     </div>
 
 
