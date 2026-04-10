@@ -55,8 +55,6 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
     <title>Registreren</title>
 </head>
 <body>
-    <?php include "./Navbar.php" ?>
-
     <div class="auth-wrap">
         <h2 class="auth-title">Registreren</h2>
 

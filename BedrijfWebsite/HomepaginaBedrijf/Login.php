@@ -25,6 +25,7 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
         } else {
             auth_login($user);
             auth_redirect("index.php?login=1");
+
         }
     }
 }

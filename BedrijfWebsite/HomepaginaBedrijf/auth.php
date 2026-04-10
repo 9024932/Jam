@@ -139,4 +139,54 @@ function auth_csrf_validate(?string $token): bool
     }
     return hash_equals($sessionToken, $token);
 }
+
+function auth_find_user_by_id(string $id, array $users): ?array
+{
+    foreach ($users as $user) {
+        if (isset($user["id"]) && $user["id"] === $id) {
+            return is_array($user) ? $user : null;
+        }
+    }
+    return null;
+}
+
+function auth_update_user(string $id, array $updates): bool
+{
+    $users = auth_read_users();
+    $userKey = null;
+    
+    foreach ($users as $key => $user) {
+        if (isset($user["id"]) && $user["id"] === $id) {
+            $userKey = $key;
+            break;
+        }
+    }
+    
+    if ($userKey === null) {
+        return false;
+    }
+    
+    // Update alleen allowed fields
+    if (isset($updates["name"]) && is_string($updates["name"])) {
+        $users[$userKey]["name"] = trim($updates["name"]);
+    }
+    
+    if (isset($updates["email"]) && is_string($updates["email"])) {
+        $users[$userKey]["email"] = auth_normalize_email($updates["email"]);
+    }
+    
+    if (isset($updates["password_hash"]) && is_string($updates["password_hash"])) {
+        $users[$userKey]["password_hash"] = $updates["password_hash"];
+    }
+    
+    auth_write_users($users);
+    
+    // Update session als het de ingelogde gebruiker is
+    if (auth_user()["id"] === $id) {
+        $_SESSION["user"]["name"] = $users[$userKey]["name"];
+        $_SESSION["user"]["email"] = $users[$userKey]["email"];
+    }
+    
+    return true;
+}
 ?>
