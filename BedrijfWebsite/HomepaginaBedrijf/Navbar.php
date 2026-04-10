@@ -21,7 +21,7 @@ $user = auth_user();
 
   <?php if ($user) { ?>
     <li><a href="index.php">Home</a></li>
-    <li><a href="Contact.php">Contact</a></li>
+    <li class="ContactNavbar"><a href="Contact.php">Contact</a></li>
     <li><a href="Overmij.php">Over mij</a></li>
     <li><a href="FAQS.php">FAQS</a></li>
     <li><a href="Reviews.php">Reviews</a></li>

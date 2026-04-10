@@ -14,5 +14,13 @@
         "role": "admin",
         "password_hash": "$2y$10$xNUkA02QSIGFKSwmY4AuJuY01SCvylX4Fbkb9xBjNdjY1Holifn5i",
         "created_at": "2026-04-09T13:54:23+00:00"
+    },
+    {
+        "id": "f18544ae56deb3f1f705878994f4dca6",
+        "name": "Arda",
+        "email": "ardautu2@gmail.com",
+        "role": "user",
+        "password_hash": "$2y$10$GMSFDCRIaHPCYgQS3j9UmuhhCXPWGU2fq\/v1p\/QEwD9leZ0M9xi5y",
+        "created_at": "2026-04-10T07:58:44+00:00"
     }
 ]
