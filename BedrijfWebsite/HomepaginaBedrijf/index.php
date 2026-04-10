@@ -1,3 +1,8 @@
+<?php 
+require_once __DIR__ . "/auth.php"; 
+auth_init();
+auth_require_login(); // Verplicht inloggen
+?>
 <!DOCTYPE html>
 <html lang="en">
 
