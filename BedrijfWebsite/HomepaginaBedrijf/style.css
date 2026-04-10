@@ -47,8 +47,7 @@ left: -400px;
 .footer {
   background-color: #644c4c;
   position: relative;
-  left: 0;
-  right: 0;
+  
   bottom: 0;
   z-index: 900;
   display: grid;
@@ -1069,5 +1068,89 @@ ul li.nav-user-li {
   transform: translateY(-2px);
   box-shadow: 0 8px 16px rgba(0, 0, 0, 0.22);
 }
+
+
+.BookworkshopCard{
+position: relative;
+height: 500px;
+width: 500px;
+gap: 500px;
+margin-top: 50px;
+}
+
+.BookworkshopCard1 p{
+  margin-top: 30px;
+}
+
+.BookworkshopText{
+  width: 500px;
+}
+
+.BookworkshopCardBody{
+  background-color: #f8f3f1;
+  margin-left: 50px;
+  padding: 1rem;
+  width: 550px;
+  text-align: center;
+  border-radius: 30px;
+  position: relative;
+  top: 150px;
+}
+
+.TekenImage, .TekenImage2, .TekenImage3 {
+  border-radius: 10px;
+  width: 300px;
+  height: 200px;
+  margin-bottom: 30px;
+  display: flex;
+  flex-direction: column;
+  margin: 4rem;
+  margin-left: 70px;
+  margin-bottom: 80px;
+}
+
+
+.BookworkshopCardBody2{
+border-radius: 30px;
+background-color: #f8f3f1;
+height: 890px;
+position: relative;
+top: 150px;
+}
+
+.workshop-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin: 0 200px;
+}
+
+.Bookworkshop-button{
+  text-decoration: none;
+  border-radius: 5px;
+  background-color: #ffffff;
+  border: 2px solid #cbcbcb;
+  color: #000000;
+  text-align: start;
+  z-index: 10000;
+  padding: 6px 30px;
+  position: absolute;
+  left: 470px;
+  bottom: -180px;
+}
+
+.Bookworkshop-button:hover {
+  background-color: #cf944c;
+  border: 2px solid #9a7344;
+  color: white;
+  transform: scale(1.1);
+  transition: transform 0.3s ease;
+}
+
+
+
+
+
+
  
  
