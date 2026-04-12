@@ -39,7 +39,7 @@ auth_require_login(); // Verplicht inloggen
             <p class="Locatie">Door heel nederland</p>
             <p class="Begeleiding">Begeleiding door professionele kunstenaar</p>
             <p class="Locatie">Locatie op eigen bedrijven</p>
-            <p class="Groepsgrootte">Voor bedrijven en groepen 20 - 50 personen</p>
+            <p class="Groepsgrootte">Voor bedrijven en groepen 10 - 50 personen</p>
         </section>
         <div class="Section3Icons" aria-hidden="true">
             <img src="./Afbeeldingen/world.png" alt="">
@@ -58,15 +58,15 @@ auth_require_login(); // Verplicht inloggen
             <p class="Prijs">Vanaf €10 per persoon</p>
             <p class="Duur">Duur: 2 – 3 uur</p>
             <p class="Geschikt">Geschikt voor bedrijven en teams</p>
-            <p class="Groepsgrootte">Groepsgrootte: 20 – 50 personen</p>
+            <p class="Groepsgrootte">Groepsgrootte: 10 – 50 personen</p>
         </section>
         <a class="FAQSButton" href="FAQS.php">Vragen?</a>
 <section class="Section4">
         <div class="Section4Icons" aria-hidden="true">
-            <img src="./Afbeeldingen/men.png" alt="">
-            <img src="./Afbeeldingen/paintlog.png" alt="">
+            <img src="./Afbeeldingen/euro.png" alt="">
+            <img class="klol1" src="./Afbeeldingen/klok.png" alt="">
             <img src="./Afbeeldingen/world.png" alt="">
-            <img src="./Afbeeldingen/loclog.png" alt="">
+            <img src="./Afbeeldingen/men.png" alt="">
         </div>
 </section>
 <section class="ImageWorkshop">

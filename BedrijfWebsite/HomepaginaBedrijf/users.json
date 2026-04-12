@@ -30,5 +30,13 @@
         "role": "user",
         "password_hash": "$2y$10$PT9HA9yRnEmMZhGrT6dRJOMWNVLvs9hSqQuSNgPrG1RQ4nktVxnXG",
         "created_at": "2026-04-10T08:45:09+00:00"
+    },
+    {
+        "id": "72ee0df432837c83078fe1b1b07fc419",
+        "name": "test",
+        "email": "test@gmail.com",
+        "role": "user",
+        "password_hash": "$2y$10$ugd.TwMHkw9WIrqS61L0ruj7Vi148d2s2FsRvVHCVUkLuhdwiV3z2",
+        "created_at": "2026-04-10T11:53:11+00:00"
     }
 ]
