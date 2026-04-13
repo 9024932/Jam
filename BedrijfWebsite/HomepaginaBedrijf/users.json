@@ -30,5 +30,13 @@
         "role": "user",
         "password_hash": "$2y$10$PT9HA9yRnEmMZhGrT6dRJOMWNVLvs9hSqQuSNgPrG1RQ4nktVxnXG",
         "created_at": "2026-04-10T08:45:09+00:00"
+    },
+    {
+        "id": "f7e488f8173f269eb210df4e1c0fb5ea",
+        "name": "Arda",
+        "email": "arda@gmail.com",
+        "role": "user",
+        "password_hash": "$2y$10$E5xUCZUsE3hA53mUW8baPOg9xI0\/ynRHHAMnqH\/5uXeJS.FA28wEi",
+        "created_at": "2026-04-13T10:16:30+00:00"
     }
 ]
