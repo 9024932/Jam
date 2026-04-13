@@ -1,10 +1,10 @@
 [
     {
-        "id": "64f759e5d85a170dca12e275",
+        "id": "a7c4876963b4b2e98cd0c2c6",
         "rating": 4,
-        "name": "SulaimanIsZwart",
-        "review": "nigg\r\nr",
-        "created_at": "2026-04-10T09:01:04+00:00"
+        "name": "",
+        "review": "Mooie website",
+        "created_at": "2026-04-10T11:57:37+00:00"
     },
     {
         "id": "5113e4e5d0065f383e939475",
@@ -12,18 +12,5 @@
         "name": "Arda",
         "review": "Mooie website!",
         "created_at": "2026-04-10T08:54:14+00:00"
-    },
-    {
-        "id": "541616df5b8e30f6057632f1",
-        "rating": 3,
-        "name": "",
-        "review": "adad",
-        "created_at": "2026-04-10T08:00:01+00:00"
-    },
-    {
-        "rating": 5,
-        "review": "fvsvvsvsvs",
-        "created_at": "2026-04-09T11:33:36+00:00",
-        "id": "a3b3a61e68c1b9b0f36321e2"
     }
 ]
