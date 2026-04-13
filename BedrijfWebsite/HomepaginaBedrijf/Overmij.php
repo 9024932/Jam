@@ -27,7 +27,7 @@
                     Wat ik mijn klanten gun? Dat ze naar huis gaan met meer verbinding,
                     meer plezier en een herinnering die verder gaat dan een standaard teamuitje.
                 </p>
-                <a class="Overmijbutton" href="./contact.php">Get in touch</a>
+                <button class="Overmijbutton" type="button" href="./contact.php">Get in touch</button>
             </section>
         </section>
     <?php include "./Footer.php" ?>
