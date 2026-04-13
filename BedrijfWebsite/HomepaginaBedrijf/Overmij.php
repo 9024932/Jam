@@ -11,12 +11,11 @@
 
 <body>
     <?php include "./Navbar.php" ?>
-    <main class="overmij-section">
-        <div class="overmij-card">
-            <div class="overmij-image">
-                <img src="Afbeeldingen/WorkshopImage.png" alt="Workshop foto">
-            </div>
-            <div class="overmij-content">
+        <section class="Overmijbody">
+            <section class="Overmijimage">
+                <img src="Afbeeldingen/Janine.png" alt="Workshop foto">
+            </section>
+            <section class="Overmijcontent">
                 <h1>Hee, hallo ik ben Janine.</h1>
                 <p>
                     Creativiteit heeft mij altijd geraakt. Ik merkte hoe fijn
@@ -28,12 +27,9 @@
                     Wat ik mijn klanten gun? Dat ze naar huis gaan met meer verbinding,
                     meer plezier en een herinnering die verder gaat dan een standaard teamuitje.
                 </p>
-                <a class="overmij-button" href="contact.php">Get in touch</a>
-            </div>
-        </div>
-    </main>
-
-
+                <button class="Overmijbutton" href="contact.php">Get in touch</button>
+            </section>
+        </section>
     <?php include "./Footer.php" ?>
 </body>
 
