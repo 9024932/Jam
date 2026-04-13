@@ -16,7 +16,7 @@
                 <img src="Afbeeldingen/Janine.png" alt="Workshop foto">
             </section>
             <section class="Overmijcontent">
-                <h1>Hee, hallo ik ben Janine.</h1>
+                <h1 class="Overmijh1">Hee, hallo ik ben Janine.</h1>
                 <p>
                     Creativiteit heeft mij altijd geraakt. Ik merkte hoe fijn
                     het is om even uit je verstand op nul te zetten en met
