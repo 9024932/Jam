@@ -206,7 +206,7 @@ left: 250px;
 
 .Section4Icons {
   position: absolute;
-  top: -313px;
+  top: -300px;
   left: 10px;
   display: flex;
   flex-direction: column;
@@ -216,7 +216,7 @@ left: 250px;
 
 .Tekst2 {
   position: relative;
-  top: -30px;
+  top: -18px;
   height: 317px;
   width: 400px;
   right: 10px;
@@ -853,6 +853,7 @@ ul li {
 
 ul li.nav-user-li {
   margin-right: auto;
+  font-family: "Sixtyfour Convergence", sans-serif;
 }
 
 .nav-user {
