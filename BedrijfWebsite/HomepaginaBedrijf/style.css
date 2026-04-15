@@ -1,6 +1,8 @@
 
-
-
+p, a, section, div {
+  font-family: "Sixtyfour Convergence", sans-serif;
+  font-size: 17px;
+}
  
 ul li {
   float: left;
@@ -8,7 +10,6 @@ ul li {
   right: 200px;
   margin: 0.8rem;
 }
- 
 
  
 body {
@@ -17,8 +18,8 @@ body {
 }
  
 .uitlog {
-position: relative;
-left: -400px;
+position: absolute;
+left: 250px;
 }
  
 .BookWorkshop {
@@ -39,10 +40,10 @@ left: -400px;
   transition: transform 0.3s ease;
 }
  
-.ContactNavbar{
-
+.right{
+  position: relative;
+  right: -90px;
 }
-
 
 .footer {
   background-color: #644c4c;
@@ -74,9 +75,29 @@ left: -400px;
   text-align: start;
   z-index: 10000;
   padding: 6px 30px;
-  position: absolute;
-  left: 1210px;
+  margin-left: 1px;
   bottom: -30px;
+}
+
+.OverMijButton1{
+  text-decoration: none;
+  display: inline-block;
+  border-radius: 5px;
+  background-color: #ffffff;
+  border: 2px solid #cbcbcb;
+  color: #000000;
+  text-align: start;
+  z-index: 10000;
+  padding: 6px 30px;
+  margin-left: 700px;
+}
+
+.OverMijButton1:hover {
+  background-color: #cf944c;
+  border: 2px solid #9a7344;
+  color: white;
+  transform: scale(1.1);
+  transition: background-color 0.3s ease, color 0.3s ease, transform 0.3s ease;
 }
  
 .MeerWetenButton {
@@ -84,16 +105,16 @@ left: -400px;
   border: none;
   padding: 10px 30px;
   border-radius: 5px;
-  background-color: #cf944c;
-  border: 2px solid #9a7344;
-  color: white;
+  background-color: #ffffff;
+  border: 2px solid #cbcbcb;
+  color: black;
   font-size: 15px;
 }
  
 .MeerWetenButton:hover {
-  background-color: #ffffff;
-  border: 2px solid #cbcbcb;
-  color: black;
+  background-color: #cf944c;
+  border: 2px solid #9a7344;
+  color: white;
   transform: scale(1.1);
   transition: transform 0.3s ease;
 }
@@ -128,7 +149,7 @@ left: -400px;
   background-color: #f8f3f1;
   display: flex;
   justify-content: space-between;
-  padding: 0 50px;
+  padding: 0 30px;
   margin: 0 10px;
 }
  
@@ -169,28 +190,31 @@ left: -400px;
  
 .Section4 {
   position: relative;
-  top: 50px;
-  left: -390px;
-  width: 360px;
-  padding: 1rem 6rem 1rem 1rem;
+  top: 39px;
+  left: -395px;
+  width: 340px;
   margin: 0 400px;
   border-radius: 10px;
   text-align: center;
 }
+
+.WorkshopTitel{
+  margin-bottom: 10px;
+}
  
 .Section4Icons {
   position: absolute;
-  top: -310px;
+  top: -313px;
   left: 10px;
   display: flex;
   flex-direction: column;
-  gap: 22px;
+  gap: 18px;
   z-index: 100;
 }
  
 .Tekst2 {
   position: relative;
-  top: -15px;
+  top: -30px;
   height: 317px;
   width: 400px;
   right: 10px;
@@ -248,10 +272,6 @@ left: -400px;
   bottom: -80px;
 }
  
-p {
-  font-family: "brygada 1918", serif;
-  font-size: 17px;
-}
  
 .FAQSButton {
   position: absolute;
@@ -309,7 +329,7 @@ p {
  
 .Overmijbody{
   align-items: center;
-  margin-top: 300px;
+  margin-top: 150px;
   margin-left: 500px;
   width: 900px;
   height: 398px;
@@ -328,7 +348,7 @@ p {
 .Overmijimage img{
   position: absolute;
   left: 150px;
-  top: 363px;
+  top: 213px;
   width: 400px;
   height: 429px;
   border-radius: 30px 0px 0px 30px;
@@ -336,7 +356,6 @@ p {
 
  
 .Overmijcontent p{
-  font-family: "brygada 1918", serif;
   color: #2d2d2d;
   margin-top: 79.5px;
   margin-left: 90px;
@@ -401,7 +420,7 @@ p {
  
 .info {
   position: absolute;
-  bottom: 25px;
+  bottom: 125px;
   left: 50%;
   transform: translateX(-50%);
 }
@@ -409,7 +428,7 @@ p {
 .button-wrapper {
   display: flex;
   justify-content: center;
-  margin: 40px 0 80px;
+  margin: 10px 0 80px;
 }
  
 .MailImage {
@@ -508,7 +527,6 @@ p {
  
 .h2r {
   text-align: center;
-  font-family: Arial, kurale;
   font-size: 3rem;
 }
  
@@ -660,9 +678,9 @@ body {
 .postbtn {
   display: block;
   margin: 22px auto 0;
-  background-color: #b6874e;
-  color: #fff;
-  border: none;
+  background-color: #ffffff;
+  border: 2px solid #cbcbcb;
+  color: #000000;
   border-radius: 8px;
   padding: 10px 28px;
   font-size: 16px;
@@ -677,7 +695,8 @@ body {
  
 .postbtn:hover {
   background-color: #a67a46;
-  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.22);
+  border-color: #9a7344;
+  transform: translateY(-2px);
 }
  
 .postbtn:active {
@@ -705,7 +724,6 @@ body {
  
 .reviews-empty {
   margin: 18px 0 0;
-  font-family: Arial, kurale;
   color: #644c4c;
 }
  
@@ -757,7 +775,6 @@ body {
 }
  
 .review-card__name {
-  font-family: Arial, kurale;
   font-weight: 700;
 }
  
@@ -798,7 +815,6 @@ body {
   margin: 18px auto 0;
   padding: 12px 14px;
   border-radius: 10px;
-  font-family: Arial, kurale;
   font-size: 15px;
   box-shadow: 0 6px 18px rgba(0, 0, 0, 0.1);
 }
@@ -838,24 +854,20 @@ ul li.nav-user-li {
 .nav-user {
   display: inline-block;
   padding: 14px 16px;
-  font-family: Arial, kurale;
   white-space: nowrap;
 }
  
 .nav-profile-link {
   display: inline-block;
-  padding: 14px 16px;
+  padding: 5x 16px;
   color: black;
   text-decoration: none;
-  font-family: Arial, kurale;
-  white-space: nowrap;
-  transition: background-color 0.3s ease;
+  margin-left: -7px;
 }
  
 .nav-profile-link:hover {
   background-color: #cf944c;
   color: white;
-  border-radius: 10px;
 }
  
 .nav-disabled {
@@ -863,7 +875,6 @@ ul li.nav-user-li {
   padding: 14px 16px;
   color: #b0b0b0;
   text-align: center;
-  font-family: Arial, kurale;
   white-space: nowrap;
   cursor: not-allowed;
   opacity: 0.6;
@@ -894,7 +905,6 @@ ul li.nav-user-li {
  
 .auth-title {
   text-align: center;
-  font-family: Arial, kurale;
   margin: 24px 0 18px;
 }
  
@@ -910,7 +920,6 @@ ul li.nav-user-li {
 .auth-label {
   display: block;
   margin: 12px 0 6px;
-  font-family: Arial, kurale;
   font-size: 14px;
   max-width: 320px;
   margin-left: auto;
@@ -954,7 +963,6 @@ ul li.nav-user-li {
 .auth-hint {
   margin: 10px 0 0;
   text-align: center;
-  font-family: Arial, kurale;
 }
  
 /* Profile page styles */
@@ -973,7 +981,6 @@ ul li.nav-user-li {
  
 .profile-card h1 {
   text-align: center;
-  font-family: Arial, kurale;
   margin: 0 0 24px;
   color: #333;
 }
@@ -991,7 +998,6 @@ ul li.nav-user-li {
 }
  
 .profile-section h2 {
-  font-family: Arial, kurale;
   font-size: 16px;
   margin: 0 0 16px;
   color: #333;
@@ -1010,7 +1016,6 @@ ul li.nav-user-li {
 }
  
 .form-group label {
-  font-family: Arial, kurale;
   font-size: 14px;
   color: #333;
   font-weight: 600;
@@ -1021,7 +1026,6 @@ ul li.nav-user-li {
   border: 1px solid #d7d7d7;
   border-radius: 8px;
   background: #fff;
-  font-family: Arial, sans-serif;
   font-size: 14px;
   transition: border-color 0.3s ease;
 }
@@ -1036,7 +1040,6 @@ ul li.nav-user-li {
   padding: 12px 24px;
   border: none;
   border-radius: 10px;
-  font-family: Arial, kurale;
   font-size: 14px;
   font-weight: 700;
   cursor: pointer;
@@ -1075,8 +1078,8 @@ margin-top: 50px;
 .BookworkshopCardBody{
   background-color: #f8f3f1;
   margin-left: 50px;
-  padding: 1rem;
-  width: 550px;
+  padding: 2rem;
+  width: 505px;
   text-align: center;
   border-radius: 30px;
   position: relative;
@@ -1121,8 +1124,8 @@ top: 150px;
   z-index: 10000;
   padding: 6px 30px;
   position: absolute;
-  left: 210px;
-  bottom: 180px;
+  left: 200px;
+  bottom: 195px;
 }
 
 .Bookworkshop-button:hover {

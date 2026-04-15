@@ -65,7 +65,7 @@ auth_require_login(); // Verplicht inloggen
         <div class="Section4Icons" aria-hidden="true">
             <img src="./Afbeeldingen/euro.png" alt="">
             <img class="klol1" src="./Afbeeldingen/klok.png" alt="">
-            <img src="./Afbeeldingen/world.png" alt="">
+            <img src="./Afbeeldingen/world1.png" alt="">
             <img src="./Afbeeldingen/men.png" alt="">
         </div>
 </section>
