@@ -65,8 +65,8 @@ auth_require_login(); // Verplicht inloggen
         <div class="Section4Icons" aria-hidden="true">
             <img src="./Afbeeldingen/euro.png" alt="">
             <img class="klol1" src="./Afbeeldingen/klok.png" alt="">
-            <img src="./Afbeeldingen/w2.png" alt="">
-            <img class="m2ic" src="./Afbeeldingen/men2.png" alt="">
+            <img src="./Afbeeldingen/world1.png" alt="">
+            <img src="./Afbeeldingen/men.png" alt="">
         </div>
 </section>
 <section class="ImageWorkshop">
