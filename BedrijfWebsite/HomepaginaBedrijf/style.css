@@ -1,9 +1,3 @@
-
-p, a, section, div {
-  font-family: "Sixtyfour Convergence", sans-serif;
-  font-size: 17px;
-}
- 
 ul li {
   float: left;
   position: relative;
@@ -11,17 +5,16 @@ ul li {
   margin: 0.8rem;
 }
 
- 
 body {
   margin: 0;
   padding: 0;
 }
- 
+
 .uitlog {
-position: absolute;
-left: 250px;
+  position: relative;
+  left: -400px;
 }
- 
+
 .BookWorkshop {
   background-color: #cf944c;
   border: 2px solid #9a7344;
@@ -31,7 +24,7 @@ left: 250px;
   right: -1px;
   position: relative;
 }
- 
+
 .BookWorkshop:hover {
   background-color: #ffffff;
   border: 2px solid #cbcbcb;
@@ -39,16 +32,14 @@ left: 250px;
   transform: scale(1.1);
   transition: transform 0.3s ease;
 }
- 
-.right{
-  position: relative;
-  right: -90px;
+
+.ContactNavbar {
 }
 
 .footer {
   background-color: #644c4c;
   position: relative;
-  
+
   bottom: 0;
   z-index: 900;
   display: grid;
@@ -59,13 +50,13 @@ left: 250px;
   color: white;
   top: 200px;
 }
- 
+
 .buttonSection {
   display: flex;
   gap: 30px;
   position: absolute;
 }
- 
+
 .OverMijButton {
   text-decoration: none;
   border-radius: 5px;
@@ -110,7 +101,7 @@ left: 250px;
   color: black;
   font-size: 15px;
 }
- 
+
 .MeerWetenButton:hover {
   background-color: #cf944c;
   border: 2px solid #9a7344;
@@ -118,15 +109,15 @@ left: 250px;
   transform: scale(1.1);
   transition: transform 0.3s ease;
 }
- 
+
 .OverMijButton:hover {
- background-color: #cf944c;
+  background-color: #cf944c;
   border: 2px solid #9a7344;
   color: white;
   transform: scale(1.1);
   transition: transform 0.3s ease;
 }
- 
+
 .WorkshopsButton {
   text-decoration: none;
   border: none;
@@ -136,7 +127,7 @@ left: 250px;
   border: 2px solid #cbcbcb;
   color: black;
 }
- 
+
 .WorkshopsButton:hover {
   background-color: #cf944c;
   border: 2px solid #9a7344;
@@ -144,7 +135,7 @@ left: 250px;
   transform: scale(1.1);
   transition: transform 0.3s ease;
 }
- 
+
 .Section1 {
   background-color: #f8f3f1;
   display: flex;
@@ -152,7 +143,7 @@ left: 250px;
   padding: 0 30px;
   margin: 0 10px;
 }
- 
+
 .Section2 {
   float: right;
   position: relative;
@@ -165,7 +156,7 @@ left: 250px;
   color: white;
   border-radius: 10px;
 }
- 
+
 .Tekst {
   position: relative;
   top: 15px;
@@ -174,7 +165,7 @@ left: 250px;
   flex-direction: column;
   gap: 0.01rem;
 }
- 
+
 .Section3 {
   position: relative;
   top: 110px;
@@ -187,7 +178,7 @@ left: 250px;
   text-align: center;
   z-index: 100;
 }
- 
+
 .Section4 {
   position: relative;
   top: 39px;
@@ -211,7 +202,7 @@ left: 250px;
   gap: 18px;
   z-index: 100;
 }
- 
+
 .Tekst2 {
   position: relative;
   top: -18px;
@@ -222,13 +213,13 @@ left: 250px;
   flex-direction: column;
   border-radius: 10px;
 }
- 
+
 .Section4Icons img {
   width: clamp(29px, 4vw, 14px);
   height: clamp(29px, 4vw, 14px);
   object-fit: contain;
 }
- 
+
 .Section3Icons {
   position: absolute;
   top: 30px;
@@ -237,26 +228,31 @@ left: 250px;
   flex-direction: column;
   gap: 30px;
 }
- 
+
 .Section3Icons img {
   width: clamp(30px, 4vw, 34px);
   height: clamp(30px, 4vw, 34px);
   object-fit: contain;
 }
- 
+
 .Section4Icons img {
   width: clamp(18px, 4vw, 34px);
   height: clamp(18px, 4vw, 34px);
   object-fit: contain;
 }
- 
+
+.Section4Icons img.m2ic {
+  width: clamp(40px, 6vw, 70px);
+  height: clamp(40px, 6vw, 70px);
+}
+
 .HeaderImage {
   height: 340px;
   width: 400px;
   padding: 1rem;
   border-radius: 10%;
 }
- 
+
 .WorkshopImage {
   position: absolute;
   bottom: 1px;
@@ -266,7 +262,7 @@ left: 250px;
   border-radius: 10% 0% 0% 10%;
   z-index: 100;
 }
- 
+
 .Beschrijving {
   position: relative;
   bottom: -80px;
@@ -286,7 +282,7 @@ left: 250px;
   z-index: 10000;
   color: black;
 }
- 
+
 .FAQSButton:hover {
   background-color: #cf944c;
   border: 2px solid #9a7344;
@@ -294,7 +290,7 @@ left: 250px;
   transform: scale(1.1);
   transition: transform 0.3s ease;
 }
- 
+
 .card {
   width: 320px;
   height: 380px;
@@ -305,7 +301,7 @@ left: 250px;
   padding: 40px 20px;
   position: relative;
 }
- 
+
 .card2 {
   width: 320px;
   height: 380px;
@@ -316,18 +312,18 @@ left: 250px;
   margin-top: 1rem;
   padding: 1rem;
 }
- 
+
 .card2:hover {
   transform: translateY(-10px);
   transition: transform 0.3s ease;
 }
- 
+
 .card:hover {
   transform: translateY(-10px);
   transition: transform 0.3s ease;
 }
- 
-.Overmijbody{
+
+.Overmijbody {
   align-items: center;
   margin-top: 150px;
   margin-left: 500px;
@@ -340,12 +336,11 @@ left: 250px;
   padding: 1rem;
 }
 
-.Overmijh1{
+.Overmijh1 {
   margin-left: 85px;
 }
 
-
-.Overmijimage img{
+.Overmijimage img {
   position: absolute;
   left: 150px;
   top: 213px;
@@ -360,11 +355,11 @@ left: 250px;
   margin-top: 79.5px;
   margin-left: 90px;
 }
- 
-.Overmijbutton{
+
+.Overmijbutton {
   text-decoration: none;
   border: none;
-  padding: 6px ;
+  padding: 6px;
   font-size: 15px;
   border-radius: 5px;
   background-color: #ffffff;
@@ -374,7 +369,7 @@ left: 250px;
   margin-top: 50px;
   margin-left: 700px;
 }
- 
+
 .Overmijbutton:hover {
   background-color: #cf944c;
   border: 2px solid #9a7344;
@@ -383,54 +378,51 @@ left: 250px;
   transition: transform 0.3s ease;
 }
 
- 
 @media (max-width: 900px) {
   .overmij-card {
     flex-direction: column;
   }
- 
-  
- 
+
   .overmij-content {
     padding: 40px 32px;
   }
 }
- 
+
 @media (max-width: 640px) {
   .overmij-section {
     padding: 40px 16px 24px;
   }
- 
+
   .overmij-content h1 {
     font-size: 2rem;
   }
- 
+
   .overmij-button {
     width: 100%;
     text-align: center;
   }
 }
- 
+
 .contact-section {
   display: flex;
   justify-content: center;
   gap: 80px;
   padding: 80px 20px 40px;
 }
- 
+
 .info {
   position: absolute;
   bottom: 125px;
   left: 50%;
   transform: translateX(-50%);
 }
- 
+
 .button-wrapper {
   display: flex;
   justify-content: center;
   margin: 10px 0 80px;
 }
- 
+
 .MailImage {
   display: flex;
   align-items: center;
@@ -440,7 +432,7 @@ left: 250px;
   width: 30%;
   right: -33.5%;
 }
- 
+
 .ContactImage {
   display: flex;
   position: relative;
@@ -448,13 +440,13 @@ left: 250px;
   width: 15%;
   right: -42%;
 }
- 
+
 .Tekst4 {
   position: relative;
   top: 50px;
   right: -5px;
 }
- 
+
 .Section5 {
   background-color: #f8f3f1;
   padding: 5rem;
@@ -468,7 +460,7 @@ left: 250px;
 .Section6 p {
   margin-top: 20px;
 }
- 
+
 .Section6 {
   background-color: #f8f3f1;
   padding: 5rem;
@@ -476,7 +468,7 @@ left: 250px;
   width: 400px;
   box-shadow: 0 0 2px 3px rgba(0, 0, 0, 0.05);
 }
- 
+
 .SectionBodyFAQS {
   display: grid;
   margin-left: 10%;
@@ -485,24 +477,24 @@ left: 250px;
   grid-template-columns: 1fr 1fr;
   font-size: 80%;
 }
- 
+
 .TitleFAQS {
   margin-left: 35px;
   margin-top: 80px;
   text-align: center;
 }
- 
+
 .faq-item {
   display: flex;
   align-items: flex-start;
   gap: 16px;
   margin-bottom: 28px;
 }
- 
+
 .faq-item:last-child {
   margin-bottom: 0;
 }
- 
+
 .faq-number {
   flex-shrink: 0;
   display: inline-flex;
@@ -516,20 +508,20 @@ left: 250px;
   font-size: 16px;
   font-weight: 700;
 }
- 
+
 .faq-content h2 {
   margin-top: 0;
 }
- 
+
 .faq-content p {
   margin-bottom: 0;
 }
- 
+
 .h2r {
   text-align: center;
   font-size: 3rem;
 }
- 
+
 .reviewsbody {
   width: 360px;
   min-height: 420px;
@@ -548,7 +540,7 @@ left: 250px;
   height: 56px;
   margin: 0;
 }
- 
+
 /* ⭐⭐⭐ JOUW BESTAANDE CSS (ongewijzigd) ⭐⭐⭐ */
 ul {
   list-style-type: none;
@@ -560,7 +552,7 @@ ul {
   position: relative;
   z-index: 100;
 }
- 
+
 ul li a {
   display: block;
   color: black;
@@ -571,26 +563,26 @@ ul li a {
   font-weight: 400;
   font-style: normal;
 }
- 
+
 ul li {
   float: left;
   position: relative;
   right: -700px;
   margin: 0.8rem;
 }
- 
+
 ul li a:hover {
   background-color: #cf944c;
   color: white;
   border-radius: 10px;
   transition: background-color 0.3s ease;
 }
- 
+
 body {
   margin: 0;
   padding: 0;
 }
- 
+
 .reviewsbody {
   width: 360px;
   min-height: 420px;
@@ -604,13 +596,13 @@ body {
   align-items: flex-start;
   gap: 14px;
 }
- 
+
 .man1 {
   width: 56px;
   height: 56px;
   margin: 0;
 }
- 
+
 .rating {
   direction: rtl;
   display: flex;
@@ -618,11 +610,11 @@ body {
   gap: 5px;
   margin-top: 0;
 }
- 
+
 .rating input {
   display: none;
 }
- 
+
 .rating label {
   font-size: 30px;
   cursor: pointer;
@@ -633,19 +625,19 @@ body {
     transform 0.2s ease,
     opacity 0.2s ease;
 }
- 
+
 /* Hover effect */
 .rating label:hover,
 .rating label:hover ~ label {
   opacity: 1;
   transform: scale(1.2);
 }
- 
+
 /* Geselecteerde sterren */
 .rating input:checked ~ label {
   opacity: 1;
 }
- 
+
 .nameinput {
   margin: 10px 0 0;
   width: 100%;
@@ -659,7 +651,7 @@ body {
     0 3px 0 rgba(182, 135, 78, 0.35),
     0 10px 18px rgba(0, 0, 0, 0.08);
 }
- 
+
 .textarea {
   margin: 6px 0 0;
   width: 100%;
@@ -692,17 +684,17 @@ body {
     transform 0.15s ease,
     box-shadow 0.2s ease;
 }
- 
+
 .postbtn:hover {
   background-color: #a67a46;
   border-color: #9a7344;
   transform: translateY(-2px);
 }
- 
+
 .postbtn:active {
   transform: translateY(1px);
 }
- 
+
 .reviews-layout {
   display: flex;
   align-items: flex-start;
@@ -710,23 +702,23 @@ body {
   gap: 70px;
   padding: 30px 60px 40px;
 }
- 
+
 .reviews-list {
   flex: 1;
   max-width: 780px;
 }
- 
+
 .reviews-grid {
   display: grid;
   grid-template-columns: repeat(2, minmax(240px, 1fr));
   gap: 24px;
 }
- 
+
 .reviews-empty {
   margin: 18px 0 0;
   color: #644c4c;
 }
- 
+
 .review-card {
   background: #ffffff;
   border: 1px solid rgba(0, 0, 0, 0.08);
@@ -735,14 +727,14 @@ body {
   padding: 16px 16px 14px;
   position: relative;
 }
- 
+
 .review-card__delete {
   position: absolute;
   top: 10px;
   right: 10px;
   margin: 0;
 }
- 
+
 .review-card__delete button {
   width: 28px;
   height: 28px;
@@ -755,48 +747,48 @@ body {
   cursor: pointer;
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
 }
- 
+
 .review-card__delete button:hover {
   background: #fdecec;
   border-color: #f5bcbc;
 }
- 
+
 .review-card__top {
   display: flex;
   gap: 12px;
   align-items: center;
 }
- 
+
 .review-card__avatar {
   width: 48px;
   height: 48px;
   border-radius: 50%;
   object-fit: cover;
 }
- 
+
 .review-card__name {
   font-weight: 700;
 }
- 
+
 .review-card__stars {
   color: #cf944c;
   letter-spacing: 1px;
   margin-top: 2px;
   font-size: 14px;
 }
- 
+
 .review-card__text {
   margin: 12px 0 0;
   color: #2f2f2f;
   line-height: 1.35;
 }
- 
+
 .review-card__date {
   margin-top: 10px;
   font-size: 12px;
   color: rgba(0, 0, 0, 0.55);
 }
- 
+
 @media (max-width: 1000px) {
   .reviews-layout {
     flex-direction: column;
@@ -804,12 +796,12 @@ body {
     gap: 28px;
     padding: 20px;
   }
- 
+
   .reviews-grid {
     grid-template-columns: 1fr;
   }
 }
- 
+
 .flash {
   max-width: 720px;
   margin: 18px auto 0;
@@ -818,19 +810,19 @@ body {
   font-size: 15px;
   box-shadow: 0 6px 18px rgba(0, 0, 0, 0.1);
 }
- 
+
 .flash--success {
   background: #e9f7ee;
   color: #1c6b3a;
   border: 1px solid #bfe6cd;
 }
- 
+
 .flash--error {
   background: #fdecec;
   color: #8a1f1f;
   border: 1px solid #f5bcbc;
 }
- 
+
 ul {
   display: flex;
   align-items: center;
@@ -839,25 +831,25 @@ ul {
   gap: 10px;
   overflow: visible;
 }
- 
+
 ul li {
   float: none;
   position: static;
   right: auto;
   margin: 0.4rem 0.6rem;
 }
- 
+
 ul li.nav-user-li {
   margin-right: auto;
   font-family: "Sixtyfour Convergence", sans-serif;
 }
- 
+
 .nav-user {
   display: inline-block;
   padding: 14px 16px;
   white-space: nowrap;
 }
- 
+
 .nav-profile-link {
   display: inline-block;
   padding: 5x 16px;
@@ -865,12 +857,12 @@ ul li.nav-user-li {
   text-decoration: none;
   margin-left: -7px;
 }
- 
+
 .nav-profile-link:hover {
   background-color: #cf944c;
   color: white;
 }
- 
+
 .nav-disabled {
   display: inline-block;
   padding: 14px 16px;
@@ -880,35 +872,35 @@ ul li.nav-user-li {
   cursor: not-allowed;
   opacity: 0.6;
 }
- 
+
 .nav-disabled:hover {
   background-color: transparent;
   color: #b0b0b0;
 }
- 
+
 .BookWorkshop-disabled {
   background-color: #e0e0e0;
   border: 2px solid #c0c0c0;
   color: #999;
 }
- 
+
 .BookWorkshop-disabled:hover {
   background-color: #e0e0e0;
   border: 2px solid #c0c0c0;
   color: #999;
 }
- 
+
 .auth-wrap {
   max-width: 520px;
   margin: 40px auto 0;
   padding: 0 20px;
 }
- 
+
 .auth-title {
   text-align: center;
   margin: 24px 0 18px;
 }
- 
+
 .auth-card {
   background-color: #f8f3f1;
   border-radius: 20px;
@@ -917,7 +909,7 @@ ul li.nav-user-li {
   max-width: 420px;
   margin: 0 auto;
 }
- 
+
 .auth-label {
   display: block;
   margin: 12px 0 6px;
@@ -926,7 +918,7 @@ ul li.nav-user-li {
   margin-left: auto;
   margin-right: auto;
 }
- 
+
 .auth-input {
   width: 100%;
   max-width: 320px;
@@ -938,7 +930,7 @@ ul li.nav-user-li {
   margin-left: auto;
   margin-right: auto;
 }
- 
+
 .auth-btn {
   display: block;
   width: 100%;
@@ -956,72 +948,72 @@ ul li.nav-user-li {
   margin-left: auto;
   margin-right: auto;
 }
- 
+
 .auth-btn:hover {
   background-color: #a67a46;
 }
- 
+
 .auth-hint {
   margin: 10px 0 0;
   text-align: center;
 }
- 
+
 /* Profile page styles */
 .profile-container {
   max-width: 600px;
   margin: 40px auto;
   padding: 0 20px;
 }
- 
+
 .profile-card {
   background-color: #f8f3f1;
   border-radius: 20px;
   padding: 26px;
   box-shadow: 0 16px 40px rgba(0, 0, 0, 0.12);
 }
- 
+
 .profile-card h1 {
   text-align: center;
   margin: 0 0 24px;
   color: #333;
 }
- 
+
 .profile-section {
   margin-bottom: 28px;
   padding-bottom: 24px;
   border-bottom: 1px solid #e0e0e0;
 }
- 
+
 .profile-section:last-child {
   border-bottom: none;
   margin-bottom: 0;
   padding-bottom: 0;
 }
- 
+
 .profile-section h2 {
   font-size: 16px;
   margin: 0 0 16px;
   color: #333;
 }
- 
+
 .profile-form {
   display: flex;
   flex-direction: column;
   gap: 16px;
 }
- 
+
 .form-group {
   display: flex;
   flex-direction: column;
   gap: 6px;
 }
- 
+
 .form-group label {
   font-size: 14px;
   color: #333;
   font-weight: 600;
 }
- 
+
 .form-group input {
   padding: 12px 14px;
   border: 1px solid #d7d7d7;
@@ -1030,13 +1022,13 @@ ul li.nav-user-li {
   font-size: 14px;
   transition: border-color 0.3s ease;
 }
- 
+
 .form-group input:focus {
   outline: none;
   border-color: #cf944c;
   box-shadow: 0 0 0 3px rgba(207, 148, 76, 0.1);
 }
- 
+
 .btn {
   padding: 12px 24px;
   border: none;
@@ -1046,37 +1038,36 @@ ul li.nav-user-li {
   cursor: pointer;
   transition: all 0.3s ease;
 }
- 
+
 .btn--primary {
   background-color: #b6874e;
   color: #fff;
   box-shadow: 0 6px 12px rgba(0, 0, 0, 0.18);
 }
- 
+
 .btn--primary:hover {
   background-color: #a67a46;
   transform: translateY(-2px);
   box-shadow: 0 8px 16px rgba(0, 0, 0, 0.22);
 }
 
-
-.BookworkshopCard{
-position: relative;
-height: 500px;
-width: 500px;
-gap: 500px;
-margin-top: 50px;
+.BookworkshopCard {
+  position: relative;
+  height: 500px;
+  width: 500px;
+  gap: 500px;
+  margin-top: 50px;
 }
 
-.BookworkshopCard1 p{
+.BookworkshopCard1 p {
   margin-top: 30px;
 }
 
-.BookworkshopText{
+.BookworkshopText {
   width: 500px;
 }
 
-.BookworkshopCardBody{
+.BookworkshopCardBody {
   background-color: #f8f3f1;
   margin-left: 50px;
   padding: 2rem;
@@ -1087,7 +1078,9 @@ margin-top: 50px;
   top: 150px;
 }
 
-.TekenImage, .TekenImage2, .TekenImage3 {
+.TekenImage,
+.TekenImage2,
+.TekenImage3 {
   border-radius: 10px;
   width: 300px;
   height: 200px;
@@ -1099,13 +1092,12 @@ margin-top: 50px;
   margin-bottom: 80px;
 }
 
-
-.BookworkshopCardBody2{
-border-radius: 30px;
-background-color: #f8f3f1;
-height: 890px;
-position: relative;
-top: 150px;
+.BookworkshopCardBody2 {
+  border-radius: 30px;
+  background-color: #f8f3f1;
+  height: 890px;
+  position: relative;
+  top: 150px;
 }
 
 .workshop-container {
@@ -1115,7 +1107,7 @@ top: 150px;
   margin: 0 200px;
 }
 
-.Bookworkshop-button{
+.Bookworkshop-button {
   text-decoration: none;
   border-radius: 5px;
   background-color: #ffffff;
@@ -1137,10 +1129,7 @@ top: 150px;
   transition: transform 0.3s ease;
 }
 
-
-
-
-
-
- 
- 
+.m2ic {
+margin-left: -26%;
+margin-top: -20%;
+}
