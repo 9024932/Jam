@@ -1,3 +1,11 @@
+p, a, section, div {
+  font-family: "Sixtyfour Convergence", sans-serif;
+  font-size: 17px;
+}
+
+
+
+
 ul li {
   float: left;
   position: relative;
@@ -11,8 +19,8 @@ body {
 }
 
 .uitlog {
-  position: relative;
-  left: -400px;
+position: absolute;
+left: 250px;
 }
 
 .BookWorkshop {
@@ -70,7 +78,7 @@ body {
   bottom: -30px;
 }
 
-.OverMijButton1{
+.OverMijButton1 {
   text-decoration: none;
   display: inline-block;
   border-radius: 5px;
@@ -88,9 +96,12 @@ body {
   border: 2px solid #9a7344;
   color: white;
   transform: scale(1.1);
-  transition: background-color 0.3s ease, color 0.3s ease, transform 0.3s ease;
+  transition:
+    background-color 0.3s ease,
+    color 0.3s ease,
+    transform 0.3s ease;
 }
- 
+
 .MeerWetenButton {
   text-decoration: none;
   border: none;
@@ -189,10 +200,10 @@ body {
   text-align: center;
 }
 
-.WorkshopTitel{
+.WorkshopTitel {
   margin-bottom: 10px;
 }
- 
+
 .Section4Icons {
   position: absolute;
   top: -313px;
@@ -230,9 +241,10 @@ body {
 }
 
 .Section3Icons img {
-  width: clamp(30px, 4vw, 34px);
-  height: clamp(30px, 4vw, 34px);
+  width: clamp(30px, 4vw, 40px);
+  height: clamp(30px, 4vw, 40px);
   object-fit: contain;
+  margin-top: -26%;
 }
 
 .Section4Icons img {
@@ -241,9 +253,11 @@ body {
   object-fit: contain;
 }
 
-.Section4Icons img.m2ic {
-  width: clamp(40px, 6vw, 70px);
-  height: clamp(40px, 6vw, 70px);
+.Section4Icons img.men2 {
+  width: clamp(45px, 8vw, 60px) !important;
+  height: clamp(45px, 8vw, 60px) !important;
+  margin-top: -35%;
+  margin-left: -22%;
 }
 
 .HeaderImage {
@@ -267,8 +281,7 @@ body {
   position: relative;
   bottom: -80px;
 }
- 
- 
+
 .FAQSButton {
   position: absolute;
   bottom: 7px;
@@ -349,8 +362,7 @@ body {
   border-radius: 30px 0px 0px 30px;
 }
 
- 
-.Overmijcontent p{
+.Overmijcontent p {
   color: #2d2d2d;
   margin-top: 79.5px;
   margin-left: 90px;
@@ -1128,7 +1140,10 @@ ul li.nav-user-li {
   transition: transform 0.3s ease;
 }
 
-.m2ic {
-margin-left: -26%;
-margin-top: -20%;
+.men2 {
+  margin-left: -6%;
+  margin-top: -20%;
+  width: clamp(50px, 7vw, 80px);
+  height: clamp(50px, 7vw, 80px);
+  object-fit: contain;
 }

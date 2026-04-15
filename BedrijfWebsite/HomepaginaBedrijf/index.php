@@ -66,7 +66,7 @@ auth_require_login(); // Verplicht inloggen
             <img src="./Afbeeldingen/euro.png" alt="">
             <img class="klol1" src="./Afbeeldingen/klok.png" alt="">
             <img src="./Afbeeldingen/world1.png" alt="">
-            <img src="./Afbeeldingen/men.png" alt="">
+            <img class="men2" src="./Afbeeldingen/men2.png" alt="">
         </div>
 </section>
 <section class="ImageWorkshop">
