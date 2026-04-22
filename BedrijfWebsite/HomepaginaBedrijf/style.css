@@ -214,6 +214,12 @@ left: 250px;
   z-index: 100;
 }
 
+.nav-logo{
+  width: 170px;
+  height: 60px;
+  margin-right: 50px;
+}
+
 .Tekst2 {
   position: relative;
   top: -18px;

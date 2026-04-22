@@ -20,7 +20,7 @@ $user = auth_user();
   <li class="nav-spacer" aria-hidden="true"></li>
 
   <?php if ($user) { ?>
-
+    <img class="nav-logo" src="./Afbeeldingen/Logo.png" alt="Craftly Logo">
     <li><a href="index.php">Home</a></li>
     <li><a href="Contact.php">Contact</a></li>
     <li><a href="Overmij.php">Over mij</a></li>

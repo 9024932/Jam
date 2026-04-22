@@ -26,7 +26,7 @@ auth_require_login(); // Verplicht inloggen
                 <a class="OverMijButton" href="Overmij.php">Over mij</a>
                 <a class="WorkshopsButton" href="Contact.php">Contact</a>
             </div>
-            <p class="Beschrijving">Bij WorkshopHub brengen we creatieve mensen samen met <br> inspirerende workshops. Leer schilderen, illustreren en <br> ontwerpen van professionele kunstenaars.</p>
+            <p class="Beschrijving">Bij Craftly brengen we creatieve mensen samen met <br> inspirerende workshops. Leer schilderen, illustreren en <br> ontwerpen van professionele kunstenaars.</p>
         </section>
 
         <section class="imageHeader">
