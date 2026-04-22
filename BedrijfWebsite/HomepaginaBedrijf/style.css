@@ -68,9 +68,9 @@ left: 250px;
 .OverMijButton {
   text-decoration: none;
   border-radius: 5px;
-  background-color: #ffffff;
-  border: 2px solid #cbcbcb;
-  color: #000000;
+  background-color: #cf944c;
+  border: 2px solid #9a7344;
+  color: white;
   text-align: start;
   z-index: 10000;
   padding: 6px 30px;
@@ -82,9 +82,9 @@ left: 250px;
   text-decoration: none;
   display: inline-block;
   border-radius: 5px;
-  background-color: #ffffff;
-  border: 2px solid #cbcbcb;
-  color: #000000;
+  background-color: #cf944c;
+  border: 2px solid #9a7344;
+  color: white;
   text-align: start;
   z-index: 10000;
   padding: 6px 30px;
@@ -92,14 +92,14 @@ left: 250px;
 }
 
 .OverMijButton1:hover {
-  background-color: #cf944c;
-  border: 2px solid #9a7344;
-  color: white;
+  background-color: #ffffff;
+  border: 2px solid #cbcbcb;
+  color: #000000;
   transform: scale(1.1);
   transition:
-    background-color 0.3s ease,
-    color 0.3s ease,
-    transform 0.3s ease;
+  background-color 0.3s ease,
+  color 0.3s ease,
+  transform 0.3s ease;
 }
 
 .MeerWetenButton {
@@ -107,24 +107,24 @@ left: 250px;
   border: none;
   padding: 10px 30px;
   border-radius: 5px;
-  background-color: #ffffff;
-  border: 2px solid #cbcbcb;
-  color: black;
+  background-color: #cf944c;
+  border: 2px solid #9a7344;
+  color: white;
   font-size: 15px;
 }
 
 .MeerWetenButton:hover {
-  background-color: #cf944c;
-  border: 2px solid #9a7344;
-  color: white;
+  background-color: #ffffff;
+  border: 2px solid #cbcbcb;
+  color: black;
   transform: scale(1.1);
   transition: transform 0.3s ease;
 }
 
 .OverMijButton:hover {
-  background-color: #cf944c;
-  border: 2px solid #9a7344;
-  color: white;
+  background-color: #ffffff;
+  border: 2px solid #cbcbcb;
+  color: #000000;
   transform: scale(1.1);
   transition: transform 0.3s ease;
 }
@@ -134,15 +134,15 @@ left: 250px;
   border: none;
   padding: 6px 30px;
   border-radius: 5px;
-  background-color: #ffffff;
-  border: 2px solid #cbcbcb;
-  color: black;
-}
-
-.WorkshopsButton:hover {
   background-color: #cf944c;
   border: 2px solid #9a7344;
   color: white;
+}
+
+.WorkshopsButton:hover {
+  background-color: #ffffff;
+  border: 2px solid #cbcbcb;
+  color: black;
   transform: scale(1.1);
   transition: transform 0.3s ease;
 }
@@ -296,16 +296,16 @@ left: 250px;
   border: none;
   padding: 6px 30px;
   border-radius: 5px;
-  background-color: #ffffff;
-  border: 2px solid #cbcbcb;
-  z-index: 10000;
-  color: black;
-}
-
-.FAQSButton:hover {
   background-color: #cf944c;
   border: 2px solid #9a7344;
   color: white;
+  z-index: 10000;
+}
+
+.FAQSButton:hover {
+  background-color: #ffffff;
+  border: 2px solid #cbcbcb;
+  color: black;
   transform: scale(1.1);
   transition: transform 0.3s ease;
 }
@@ -380,18 +380,18 @@ left: 250px;
   padding: 6px;
   font-size: 15px;
   border-radius: 5px;
-  background-color: #ffffff;
-  border: 2px solid #cbcbcb;
+  background-color: #cf944c;
+  border: 2px solid #9a7344;
+  color: white;
   z-index: 10000;
-  color: black;
   margin-top: 50px;
   margin-left: 700px;
 }
 
 .Overmijbutton:hover {
-  background-color: #cf944c;
-  border: 2px solid #9a7344;
-  color: white;
+  background-color: #ffffff;
+  border: 2px solid #cbcbcb;
+  color: black;
   transform: scale(1.1);
   transition: transform 0.3s ease;
 }
@@ -688,9 +688,9 @@ body {
 .postbtn {
   display: block;
   margin: 22px auto 0;
-  background-color: #ffffff;
-  border: 2px solid #cbcbcb;
-  color: #000000;
+  background-color: #a67a46;
+  border-color: #9a7344;
+  color: white;
   border-radius: 8px;
   padding: 10px 28px;
   font-size: 16px;
@@ -704,8 +704,9 @@ body {
 }
 
 .postbtn:hover {
-  background-color: #a67a46;
-  border-color: #9a7344;
+  background-color: #ffffff;
+  border: 2px solid #cbcbcb;
+  color: #000000;
   transform: translateY(-2px);
 }
 
@@ -1128,9 +1129,9 @@ ul li.nav-user-li {
 .Bookworkshop-button {
   text-decoration: none;
   border-radius: 5px;
-  background-color: #ffffff;
-  border: 2px solid #cbcbcb;
-  color: #000000;
+  background-color: #cf944c;
+  border: 2px solid #9a7344;
+  color: white;
   text-align: start;
   z-index: 10000;
   padding: 6px 30px;
@@ -1140,9 +1141,9 @@ ul li.nav-user-li {
 }
 
 .Bookworkshop-button:hover {
-  background-color: #cf944c;
-  border: 2px solid #9a7344;
-  color: white;
+  background-color: #ffffff;
+  border: 2px solid #cbcbcb;
+  color: #000000;
   transform: scale(1.1);
   transition: transform 0.3s ease;
 }
